@@ -33,6 +33,7 @@ jobs:
         uses: actions/download-artifact@v5
         with:
           name: CompiledPDF
+          path: ./CompiledPDF
       - name: Install Python for script execution
         run: sudo apt update && sudo apt install python3
       - name: changeIndex
