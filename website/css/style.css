@@ -33,6 +33,10 @@ div#docList {
     text-align: center;
 }
 
+li {
+    list-style-type: none;
+}
+
 div#githubBadge {
     display: flex;
     align-items: center;

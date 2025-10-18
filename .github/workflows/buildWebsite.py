@@ -20,7 +20,7 @@ def main():
     fileLink: str = ""
     for file in fileList:
         fileName: str = os.path.basename(file)
-        newStr: str = pattern.replace("{{link}}",file).replace("{{name}}",fileName)
+        newStr: str = pattern.replace("{{link}}","compiled/"+file).replace("{{name}}",fileName)
         fileLink+=newStr
     
     with open(websiteIndexPath, "r") as file:
