@@ -7,7 +7,7 @@ import sys
 from concurrent.futures import Future
 from typing import Any
 
-fileBasePath = "../../documents"
+fileBasePath = "documents"
 
 def searchTypstFiles() -> list:
     fileList: list = []
@@ -17,7 +17,7 @@ def searchTypstFiles() -> list:
     return fileList
 
 def typstCompile(filePath: str) -> bool:
-    outputDir: str=filePath.replace(fileBasePath,"../../compiled")
+    outputDir: str=filePath.replace(fileBasePath,"compiled")
     logging.debug(f'Compiling {filePath} to {outputDir}')
     args: list = [filePath,outputDir]
     cwd: str="./"
