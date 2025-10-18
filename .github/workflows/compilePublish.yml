@@ -34,7 +34,7 @@ jobs:
       - name: Install Python for script execution
         run: sudo apt update && sudo apt install python3
       - name: changeIndex
-        run: python3 .github/workflow/buildWebsite.py
+        run: python3 .github/workflows/buildWebsite.py
       - name: Create destination folders
         run: |
           mkdir website
