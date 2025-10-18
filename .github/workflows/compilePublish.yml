@@ -44,7 +44,7 @@ jobs:
           mkdir out/img
           mkdir out/compiled
       - name: Copy PDF files
-        run: cp -a ./compiled ./out/compiled/
+        run: cp -a ./CompiledPDF ./out/compiled/
       - name: Copy HTML files
         run: cp -a ./out ./out/
       - name: Copy CSS files

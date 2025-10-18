@@ -2,7 +2,7 @@ import logging
 import os
 
 pattern: str='<li><a href="{{link}}" target="_blank">{{name}}</a></li>'
-fileBasePath: str = "compiled"
+fileBasePath: str = "CompiledPDF"
 websiteIndexPath: str = "website/index.html"
 
 def searchPdfFiles() -> list:
