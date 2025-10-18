@@ -5,6 +5,7 @@ import concurrent.futures
 import sys
 
 from concurrent.futures import Future
+from pathlib import Path
 from typing import Any
 
 fileBasePath = "documents"
@@ -17,9 +18,14 @@ def searchTypstFiles() -> list:
     return fileList
 
 def typstCompile(filePath: str) -> bool:
-    outputDir: str=filePath.replace(fileBasePath,"compiled").replace(".typ",".pdf")
-    logging.debug(f'Compiling {filePath} to {outputDir}')
-    args: list = ["compile",filePath,outputDir]
+    outputFile: str=filePath.replace(fileBasePath,"compiled").replace(".typ",".pdf")
+    outputFolder: str = os.path.dirname(outputFile)
+
+    if not Path(outputFolder).is_dir():
+        os.makedirs(outputFolder, exist_ok=True)
+
+    logging.debug(f'Compiling {filePath} to {outputFile}')
+    args: list = ["compile",filePath,outputFile]
     exe: str="typst"
     result: subprocess.CompletedProcess[Any] = subprocess.run(
         args=args,
@@ -45,7 +51,7 @@ def multiThreadCompiling(fileList: list) -> bool:
     return True
 
 def main():
-    logging.basicConfig(level=logging.ERROR)
+    logging.basicConfig(level=logging.DEBUG)
     logging.debug(f'Starting compiling...')
     result: bool = multiThreadCompiling(searchTypstFiles())
     if not result:
