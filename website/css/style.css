@@ -1,0 +1,59 @@
+:root {
+    --github-badge-text-color: white;
+    --github-badge-bg-color: #0A0A0A;
+}
+
+html {
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary-color) black;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6em;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+}
+
+div#docList {
+    text-align: center;
+}
+
+div#githubBadge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: var(--github-badge-bg-color);
+    width: fit-content;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+div#githubBadge img {
+   margin-right: 0.5em;
+}
+
+div#githubBadge a {
+    padding-left: 0;
+    color: var(--github-badge-text-color);
+    text-decoration: none; 
+}
+
+footer {
+    text-align: center;
+}

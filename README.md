@@ -1,2 +1,2 @@
 # discoverwithai.github.io
-Discover With Ai project documentation
+Discover With AI project documentation

@@ -8,7 +8,7 @@ from concurrent.futures import Future
 from pathlib import Path
 from typing import Any
 
-fileBasePath = "documents"
+fileBasePath:str = "documents"
 
 def searchTypstFiles() -> list:
     fileList: list = []
