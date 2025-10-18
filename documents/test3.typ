@@ -1,5 +1,3 @@
 #include "test/test2.typ"
 
-= Test
-
-This is a test
+test3
