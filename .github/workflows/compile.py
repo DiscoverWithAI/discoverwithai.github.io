@@ -17,12 +17,17 @@ def searchTypstFiles() -> list:
     return fileList
 
 def typstCompile(filePath: str) -> bool:
-    outputDir: str=filePath.replace(fileBasePath,"compiled")
+    outputDir: str=filePath.replace(fileBasePath,"compiled").replace(".typ",".pdf")
     logging.debug(f'Compiling {filePath} to {outputDir}')
     args: list = ["compile",filePath,outputDir]
-    cwd: str="./"
     exe: str="typst"
-    result: subprocess.CompletedProcess[Any] = subprocess.run(args=args, executable=exe, shell=True, capture_output=True, cwd=cwd, check=True)
+    result: subprocess.CompletedProcess[Any] = subprocess.run(
+        args=args,
+        executable=exe,
+        shell=False,
+        capture_output=True,
+        check=True,
+        text=True)
     try:
         result.check_returncode()
     except subprocess.CalledProcessError as err:
@@ -40,7 +45,7 @@ def multiThreadCompiling(fileList: list) -> bool:
     return True
 
 def main():
-    logging.basicConfig(level=logging.DEBUG)
+    logging.basicConfig(level=logging.ERROR)
     logging.debug(f'Starting compiling...')
     result: bool = multiThreadCompiling(searchTypstFiles())
     if not result:
