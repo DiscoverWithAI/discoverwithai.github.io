@@ -1,32 +1,74 @@
 :root {
+    --bg-color: black;
+    --body-bg-color: white;
+    --body-half-band-color: rebeccapurple;
+    --body-second-band-color: rgb(189, 133, 246);
     --github-badge-text-color: white;
     --github-badge-bg-color: #0A0A0A;
+    --border-radius: 20px;
 }
 
 html {
     overflow-x: hidden;
-    scrollbar-width: thin;
-    scrollbar-color: var(--secondary-color) black;
-}
-
-html, body {
+    text-align: center;
     margin: 0;
     padding: 0;
-    line-height: 1.6em;
 }
 
 body {
-    position: relative;
     min-height: 100vh;
     min-width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: var(--bg-color);
+}
+
+@keyframes right {
+    0% {width: 0%; left: 0%}
+    25% {width: 55%; left: 0%}
+    50% {width: 100%; left: 0%}
+    75% {left: 50%}
+    100% {left: 100%}
+}
+
+body::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 110%;
+    height: 30%;
+    z-index: -1;
+    background-color: var(--body-half-band-color);
+    animation-name: right;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+body::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 110%;
+    height: 50%;
+    z-index: -1;
+    background-color: var(--body-second-band-color);
+}
+
+header, main, footer {
+    background-color: var(--body-bg-color);
+    width: 50vw
 }
 
 header {
     text-align: center;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
 }
 
 div#docList {
@@ -35,6 +77,8 @@ div#docList {
 
 ul {
     padding: 0;
+    columns: 2;
+    column-gap: 1em;
 }
 
 li {
@@ -64,4 +108,24 @@ div#githubBadge a {
 
 footer {
     text-align: center;
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+}
+
+footer div#teamUserDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a.teamUserLink {
+    width: 15vw;
+    color: black;
+    text-decoration: none;
+}
+
+footer a.teamUserLink img {
+    width: 50px;
+    border-radius: 100%;
+    border: 1px solid black
 }
