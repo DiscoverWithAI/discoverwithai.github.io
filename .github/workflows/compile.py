@@ -19,7 +19,7 @@ def searchTypstFiles() -> list:
 def typstCompile(filePath: str) -> bool:
     outputDir: str=filePath.replace(fileBasePath,"compiled")
     logging.debug(f'Compiling {filePath} to {outputDir}')
-    args: list = [filePath,outputDir]
+    args: list = ["compile",filePath,outputDir]
     cwd: str="./"
     exe: str="typst"
     result: subprocess.CompletedProcess[Any] = subprocess.run(args=args, executable=exe, shell=True, capture_output=True, cwd=cwd, check=True)
