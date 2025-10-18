@@ -47,7 +47,7 @@ jobs:
       - name: Copy PDF files
         run: cp -a ./CompiledPDF ./out/compiled/
       - name: Copy HTML files
-        run: cp -a ./out ./out/
+        run: cp -a ./website/index.html ./out/
       - name: Copy CSS files
         run: cp -a ./css ./out/
       - name: Copy images
