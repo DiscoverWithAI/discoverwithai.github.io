@@ -49,9 +49,9 @@ jobs:
       - name: Copy HTML files
         run: cp -a ./website/index.html ./out/
       - name: Copy CSS files
-        run: cp -a ./css ./out/
+        run: cp -a ./website/css ./out/
       - name: Copy images
-        run: cp -a ./img ./out/
+        run: cp -a ./website/img ./out/
       - name: Upload Website Artifact
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
