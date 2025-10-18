@@ -27,17 +27,17 @@ def typstCompile(filePath: str) -> bool:
     logging.debug(f'Compiling {filePath} to {outputFile}')
     args: list = ["compile",filePath,outputFile]
     exe: str="typst"
-    result: subprocess.CompletedProcess[Any] = subprocess.run(
+    try:
+        result: subprocess.CompletedProcess[Any] = subprocess.run(
         args=args,
         executable=exe,
         shell=False,
         capture_output=True,
         check=True,
         text=True)
-    try:
-        result.check_returncode()
+        logging.debug(result.stdout)
     except subprocess.CalledProcessError as err:
-        logging.error(f'Compiling process for file {filePath} failed. Error: {result.stderr}')
+        logging.error(f'Compiling process for file {filePath} failed. Error: {err.stderr}')
         return False
     
     return True
