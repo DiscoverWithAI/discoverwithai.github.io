@@ -25,12 +25,10 @@ def typstCompile(filePath: str) -> bool:
         os.makedirs(outputFolder, exist_ok=True)
 
     logging.debug(f'Compiling {filePath} to {outputFile}')
-    args: list = ["compile",filePath,outputFile]
-    exe: str="typst"
+    args: list = ["typst","compile",filePath,outputFile]
     try:
         result: subprocess.CompletedProcess[Any] = subprocess.run(
         args=args,
-        executable=exe,
         shell=False,
         capture_output=True,
         check=True,
