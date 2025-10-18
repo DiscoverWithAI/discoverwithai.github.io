@@ -39,23 +39,23 @@ jobs:
         run: python3 .github/workflows/buildWebsite.py
       - name: Create destination folders
         run: |
-          mkdir website
-          mkdir website/css
-          mkdir website/img
-          mkdir website/compiled
+          mkdir out
+          mkdir out/css
+          mkdir out/img
+          mkdir out/compiled
       - name: Copy PDF files
-        run: cp -a ./compiled ./website/compiled/
+        run: cp -a ./compiled ./out/compiled/
       - name: Copy HTML files
-        run: cp -a ./website ./website/
+        run: cp -a ./out ./out/
       - name: Copy CSS files
-        run: cp -a ./css ./website/
+        run: cp -a ./css ./out/
       - name: Copy images
-        run: cp -a ./img ./website/
+        run: cp -a ./img ./out/
       - name: Upload Website Artifact
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "./website"
+          path: "./out"
       - name: Setup GitHub Pages
         if: github.ref == 'refs/heads/main'
         uses: actions/configure-pages@v5
