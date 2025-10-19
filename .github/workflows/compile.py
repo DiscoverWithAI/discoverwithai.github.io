@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any
 
 fileBasePath:str = "documents"
+compileBlackList: list[str] = ["lib", "assets"]
 
 def searchTypstFiles() -> list:
     fileList: list = []
@@ -18,25 +19,26 @@ def searchTypstFiles() -> list:
     return fileList
 
 def typstCompile(filePath: str) -> bool:
-    outputFile: str=filePath.replace(fileBasePath,"compiled").replace(".typ",".pdf")
-    outputFolder: str = os.path.dirname(outputFile)
+    if not any(word in filePath for word in compileBlackList): 
+        outputFile: str=filePath.replace(fileBasePath,"compiled").replace(".typ",".pdf")
+        outputFolder: str = os.path.dirname(outputFile)
 
-    if not Path(outputFolder).is_dir():
-        os.makedirs(outputFolder, exist_ok=True)
+        if not Path(outputFolder).is_dir():
+            os.makedirs(outputFolder, exist_ok=True)
 
-    logging.debug(f'Compiling {filePath} to {outputFile}')
-    args: list = ["typst","compile",filePath,outputFile]
-    try:
-        result: subprocess.CompletedProcess[Any] = subprocess.run(
-        args=args,
-        shell=False,
-        capture_output=True,
-        check=True,
-        text=True)
-        logging.debug(result.stdout)
-    except subprocess.CalledProcessError as err:
-        logging.error(f'Compiling process for file {filePath} failed. Error: {err.stderr}')
-        return False
+        logging.debug(f'Compiling {filePath} to {outputFile}')
+        args: list = ["typst","compile",filePath,outputFile]
+        try:
+            result: subprocess.CompletedProcess[Any] = subprocess.run(
+            args=args,
+            shell=False,
+            capture_output=True,
+            check=True,
+            text=True)
+            logging.debug(result.stdout)
+        except subprocess.CalledProcessError as err:
+            logging.error(f'Compiling process for file {filePath} failed. Error: {err.stderr}')
+            return False
     
     return True
 
