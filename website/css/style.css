@@ -30,11 +30,11 @@ body {
 }
 
 @keyframes right {
-    0% {width: 0%; left: 0%}
-    25% {width: 55%; left: 0%}
-    50% {width: 100%; left: 0%}
-    75% {left: 50%}
-    100% {left: 100%}
+    0%   { width: 0%; left: 0%; }
+    25%  { width: 55%; left: 0%; }
+    50%  { width: 100%; left: 0%; }
+    75%  { width: 50%; left: 50%; }
+    100% { width: 0%; left: 100%; }
 }
 
 body::after {
