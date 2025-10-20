@@ -23,8 +23,12 @@
 
   show figure: set block(breakable: true)
 
+  set par(justify: true)
+  set text(overhang: false, hyphenate: false)
+
   set page(
     numbering: "1/1",
+
     header: [
       
       #grid(
