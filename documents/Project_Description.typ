@@ -18,7 +18,7 @@
 
   === End users
 
-  End users are people economically disposed to make a trip, a travel or a journey, interested in save money but at the same time not so willing to organize every single detail. They may be adolescents who are approaching for the first times this type of experience by their own, but also adults that wuold like to prepare an holiday with friends or the family.
+  End users are people economically disposed to make a trip, a travel or a journey, interested in save money but at the same time not so willing to organize every single detail. Travel agencies can ease user's responsabilities but they might be significantly expensive and so not affordable for everyone. Ultimately, end users may be young adults, in the range of 20 and 40 years old, who would like  to prepare an holiday with friends or the family, but they can be also adolescents who are approaching this type of experience for the first time.
 
   === Influencers
 
