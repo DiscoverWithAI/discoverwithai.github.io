@@ -46,7 +46,7 @@
     ]
   )
 
-  set heading(numbering: "1 -")
+  set heading(numbering: "1.")
 
   show heading: h => [
     #set align(left)
