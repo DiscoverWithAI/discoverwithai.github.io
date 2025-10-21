@@ -24,5 +24,13 @@
 
   == Problem analysis
 
-  The *latent problem* the application is willing to solve is about time wasted over travels preparation. Some platforms that look for best prices of flight tickets already exists, as well as those for hotels booking. Some web sites or forums are also well focused on presenting point of interests and most popular attractions, however searching all information on your own becomes very dispersive and frustating. _Discover With AI_ aims to bundle the existing services into an all-in-one platform in order to reduce time spent on searching on internet the information needed.
+  Some platforms that look for best prices of flight tickets already exists, as well as those for hotels booking. Some web sites or forums are also well focused on presenting point of interests and most popular attractions, however searching all information on your own becomes very dispersive and frustating. The *latent problem* the application is willing to solve is about inefficient preparation of travels. More in details, the problem can be charatterized in the following "sub-problems":
+
+  - *time save* - the AI tool is able to speed up the process of searching information in internet, especially when looking for point of interests in places the traveller is unfamiliar with. Additionally it is more efficient in comparing alternatives, making the user check different options easier;
+
+  - *money save* - the AI tool is also able to propose itineraries scheduling the trip day-by-day, providing, besides, cheaper options with regarding to traveller's budget, for instance suggesting a museum that offers discounts in particular days. This kind of treatment is also supplied by travel agencies, but costs can increase significantly;
+
+  - *better information organization* - the web application or the mobile application have the scope of keeping all information in one read-to-use place. The goal is to facilitate the access to data of reservations, itineraries and personal notes in order to make the travel experiene easier and more enjoyable.
+
+  _Discover With AI_ aims to bundle the existing services into an all-in-one platform in order to improve the travel experience and make this type of activity more affordable still keeping a good balance between prices and quality.
 ]
