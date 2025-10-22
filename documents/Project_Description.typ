@@ -139,7 +139,7 @@
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*,], [_Why did\`t travel before?_],
+    [*Question*,], [_Why didn\`t you travel before?_],
     [*Goal*],
     [Investigate why the individual has not traveled before, specifically examining if common challenges related to organizing and finding reliable information are significant barriers.],
   )
@@ -153,27 +153,27 @@
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_Do you travel solo on in group?_],
+    [*Question*], [_Do you travel solo or in group?_],
     [*Goal*],
     [This is mainly to make the person feel more comfortable and to determine whether they were involved in organizing the journey.],
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_you like to take initiative and try to make an itinerary?_],
+    [*Question*], [_Do you like to take initiative and try to make an itinerary?_],
     [*Goal*], [Determine whether the person prefers to organize the entire journey or most of it.],
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_Why tou don\`t like to take initiative?_],
+    [*Question*], [_Why don\`t you like to take initiative?_],
     [*Goal*],
     [Check why the person does\`t like to take initiative because the majority of people get bored of finding information.],
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_How do you find all the information you needed?_],
+    [*Question*], [_How did you find all of the information you need?_],
     [*Goal*], [Assess whether the process of gathering information was challenging or disorganized.],
   )
   #table(
