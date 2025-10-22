@@ -13,7 +13,7 @@
     v(12pt, weak: true)
     text(size: 1.2em)[*#it*]
   }
-  outline(depth: 3, title: text(size: 2em)[#v(1em) Index #v(1em)], indent: 1em)
+  outline(depth: 4, title: text(size: 2em)[#v(1em) Index #v(1em)], indent: 1em)
 
   pagebreak()
 }
