@@ -27,7 +27,7 @@
   set text(overhang: false, hyphenate: false)
 
   set page(
-    numbering: "1/1",
+    numbering: "1 of 1",
 
     header: [
       
