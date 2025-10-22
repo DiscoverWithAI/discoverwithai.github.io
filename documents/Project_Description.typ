@@ -205,12 +205,5 @@
   These are the most important questions but to keep the conversation flowing naturally, we also include some minor questions to help the person feel more comfortable, encouraging honesty and potentially leading them to share additional insights.
 
   ==== interviews
-  // #heading(level: 4, outlined: false, numbering: none)[Interviewee \#1]
-  #v(-3em)
-  #show heading.where(level: 5): set heading(numbering: none)
-  ===== Interviewee \#1
-  She is 22 years old, loves travelling and she has done it to several destinations including Spain, Greece, and Dublin. For her first trip, she traveled with a group of friends and chose to use a dedicated agency to quickly arrange the trip and secure the best options at a lower cost. However, they didn’t have enough time to properly organize the journey. Despite this, she expressed a preference to plan future trips independently to enjoy greater freedom and more choices beyond standard agency packages. She values advice from people who have experienced the same trip to obtain unbiased recommendations.
-  On another trip, the majority of the planning was done by one friend, with support from the group. They preferred to select activities through the raccomentations that social media platforms gave to them such as YouTube, TikTok, and Instagram because was easier and less time spending. The group stayed connected and coordinated via calls and video calls during planning. However, the process took considerable time.
-  She also mentioned that managing tickets and travel documents was frustrating, especially when shared among the group, as it was disorganized and scattered.
-  Overall, she showed strong interest in our idea and is eager to try it for her future travel planning.
+
 ]
