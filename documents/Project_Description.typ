@@ -133,7 +133,7 @@
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_Have you ever travel in the past?_],
+    [*Question*], [_Have you ever traveled in the past?_],
     [*Goal*], [Check if a person has previous experience and has already done a similar journey.],
   )
   #table(
