@@ -203,5 +203,5 @@
   These are the most important questions but to keep the conversation flowing naturally, we also include some minor questions to help the person feel more comfortable, encouraging honesty and potentially leading them to share additional insights.
 
   ==== Interviews
-
+  #link("https://discoverwithai.github.io/compiled/CompiledPDF/interviews/int_1.pdf")[Interview #1]
 ]
