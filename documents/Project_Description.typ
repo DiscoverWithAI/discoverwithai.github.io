@@ -123,6 +123,7 @@
   Before actively starting the interview process, we thoroughly prepared by studying techniques to maximize the information extracted from our interviewees ad wrote a small interview guide with a structured list of *core* questions. Additionally, we considered recruiting participants that best represented our user personas to ensure meaningful insights. This preparation helped us understand exactly what to ask and how to create a comfortable environment conducive to honest and comprehensive responses, ultimately enhancing the quality and usefulness of the interviews.
 
   ==== Questions
+  // scemo chi legge
 
   #table(
     columns: (auto, 1fr),
@@ -139,36 +140,33 @@
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*,], [_Why didn\`t you travel before?_],
+    [*Question*,], [_Why did you not travel before?_<q3>],
     [*Goal*],
     [Investigate why the individual has not traveled before, specifically examining if common challenges related to organizing and finding reliable information are significant barriers.],
+
+    [*Linked to*], [#link(<q3>)[_Why did you not travel before?_]],
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_How often do you travel?_],
-    [*Goal*],
-    [Check if someone has traveled before, so it reveals their level of experience and whether they travel regularly or just occasionally.],
-  )
-  #table(
-    columns: (auto, 1fr),
-    inset: 7pt,
-    [*Question*], [_Do you travel solo or in group?_],
+    [*Question*], [_Do you often travel solo or in group?_],
     [*Goal*],
     [This is mainly to make the person feel more comfortable and to determine whether they were involved in organizing the journey.],
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_Do you like to take initiative and try to make an itinerary?_],
+    [*Question*], [_Do you like to take initiative and try to make an itinerary?_<q5>],
     [*Goal*], [Determine whether the person prefers to organize the entire journey or most of it.],
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_Why don\`t you like to take initiative?_],
+    [*Question*], [_Why do you not like to take initiative?_],
     [*Goal*],
     [Check why the person does\`t like to take initiative because the majority of people get bored of finding information.],
+
+    [*Linked to*], [#link(<q5>)[_Do you like to take initiative and try to make an itinerary?_]],
   )
   #table(
     columns: (auto, 1fr),
@@ -204,6 +202,6 @@
 
   These are the most important questions but to keep the conversation flowing naturally, we also include some minor questions to help the person feel more comfortable, encouraging honesty and potentially leading them to share additional insights.
 
-  ==== interviews
+  ==== Interviews
 
 ]
