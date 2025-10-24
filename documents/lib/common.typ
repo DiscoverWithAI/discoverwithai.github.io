@@ -22,7 +22,7 @@
   counter(page).update(1)
 
   show figure: set block(breakable: true)
-
+  show link: it => underline(text(fill: blue)[#it])
   set par(justify: true)
   set text(overhang: false, hyphenate: false)
 
