@@ -1,5 +1,3 @@
-= Interviewee \#2
-#v(10pt)
 *Q:* _How old are you?_\
 *A:* I am 23 years old.
 #v(10pt)
