@@ -12,14 +12,14 @@
 *Q:* _Do you like to take initiative and try to make an itinerary?_\
 *A:* Yes, definitively. I prefer to be cosious of how much I will spend, what I will visit and what the activities will be. In fact, I organized all my travels helped with some of my friends.
 #v(10pt)
-*Q:* _How did you organized the journey?_\
-*A:* We always used Discord, rarely we met physically. All of us, or at least some of us, discussed about flights, accommodations etc. sharing the screen and searching on internet at the same time.
-#v(10pt)
-*Q:* _How did you find all of the information you need?_\
+*Q:* _How did you find all of the information you needed?_\
 *A:* Mainly on internet and forums, sometimes also asking parents or friends who have been there in the past. My friends, instead, use to looking for information on social networks.
 #v(10pt)
 *Q:* _Was searching information difficult?_\
 *A:* Yes, both looking for attractive places and getting everyone to agree. Sometimes we preferred to ask locals which are the main point of interests around.
+#v(10pt)
+*Q:* _How did you organize the journey?_\
+*A:* We always used Discord, rarely we met physically. All of us, or at least some of us, discussed about flights, accommodations etc. sharing the screen and searching on internet at the same time.
 #v(10pt)
 *Q:* _How much time did it take?_\
 *A:* It took quite a lot for every travel I did, especially because we always wanted to spend the minimum possible by buying flight tickets months in advance. Even though me and my friends did not meet very often for prepearing the travel, we spent several days in order to buy tickets, book accomodations and set up itineraries.

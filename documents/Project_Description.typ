@@ -139,21 +139,21 @@
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*,], [_Why didn\`t you travel before?_],
+    [*Question*,], [_Why did not you travel before?_],
     [*Goal*],
     [Investigate why the individual has not traveled before, specifically examining if common challenges related to organizing and finding reliable information are significant barriers.],
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_How often do you travel?_],
+    [*Question*], [_TODO: remove | How often do you travel?_],
     [*Goal*],
     [Check if someone has traveled before, so it reveals their level of experience and whether they travel regularly or just occasionally.],
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_Do you travel solo or in group?_],
+    [*Question*], [_Do you prefer to travel solo or in group?_],
     [*Goal*],
     [This is mainly to make the person feel more comfortable and to determine whether they were involved in organizing the journey.],
   )
@@ -166,33 +166,33 @@
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_Why don\`t you like to take initiative?_],
+    [*Question*], [_Why do not you like to take initiative?_],
     [*Goal*],
     [Check why the person does\`t like to take initiative because the majority of people get bored of finding information.],
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_How did you find all of the information you need?_],
+    [*Question*], [_How did you find all of the information you needed?_],
     [*Goal*], [Assess whether the process of gathering information was challenging or disorganized.],
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_How did you organized the journey?_],
+    [*Question*], [_Was searching information difficult?_],
+    [*Goal*], [Determine whether researching information was straightforward or not.],
+  )
+  #table(
+    columns: (auto, 1fr),
+    inset: 7pt,
+    [*Question*], [_How did you organize the journey?_],
     [*Goal*], [Understand the steps the person follows during the process.],
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_How much time did it took?_],
+    [*Question*], [_How much time did it take?_],
     [*Goal*], [Assess whether the process of finding information was lengthy and boring.],
-  )
-  #table(
-    columns: (auto, 1fr),
-    inset: 7pt,
-    [*Question*], [_Did you have some trouble while researching information?_],
-    [*Goal*], [Determine whether researching information straightforward or not.],
   )
   #table(
     columns: (auto, 1fr),
