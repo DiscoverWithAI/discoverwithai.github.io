@@ -1,7 +1,7 @@
 = Interviewee \#2
 #v(10pt)
 *Q:* _How old are you?_\
-*A:* I am 22 years old.
+*A:* I am 23 years old.
 #v(10pt)
 *Q:* _Have you ever traveled in the past?_\
 *A:* Yes a lot, my parents have had a motorhome since I was born and we used to travel every summer for even 4 weeks in a row. After the pandemic in 2021, however, me and my family did less and less trips and I started to travel with my friends or my girlfriend.
@@ -16,18 +16,14 @@
 *A:* We always used Discord, rarely we met physically. All of us, or at least some of us, discussed about flights, accommodations etc. sharing the screen and searching on internet at the same time.
 #v(10pt)
 *Q:* _How did you find all of the information you need?_\
-*A:* 
+*A:* Mainly on internet and forums, sometimes also asking parents or friends who have been there in the past. My friends, instead, use to looking for information on social networks.
 #v(10pt)
-*Q:* _How much time did it took?_\
-*A:*
+*Q:* _Was searching information difficult?_\
+*A:* Yes, both looking for attractive places and getting everyone to agree. Sometimes we preferred to ask locals which are the main point of interests around.
+#v(10pt)
+*Q:* _How much time did it take?_\
+*A:* It took quite a lot for every travel I did, especially because we always wanted to spend the minimum possible by buying flight tickets months in advance. Even though me and my friends did not meet very often for prepearing the travel, we spent several days in order to buy tickets, book accomodations and set up itineraries.
 #v(10pt)
 *Q:* _Were you satisfied with what you organized?_\
-*A:*
+*A:* Yes, quite satisfied. Although getting everyone agree was pretty difficult, I liked what we visited both in Malaga and in Pola (Croatia).
 #v(10pt)
-
-
-
-She is 22 years old, loves travelling and she has done it to several destinations including Spain, Greece, and Dublin. For her first trip, she traveled with a group of friends and chose to use a dedicated agency to quickly arrange the trip and secure the best options at a lower cost. However, they didn’t have enough time to properly organize the journey. Despite this, she expressed a preference to plan future trips independently to enjoy greater freedom and more choices beyond standard agency packages. She values advice from people who have experienced the same trip to obtain unbiased recommendations.
-On another trip, the majority of the planning was done by one friend, with support from the group. They preferred to select activities through the raccomentations that social media platforms gave to them such as YouTube, TikTok, and Instagram because was easier and less time spending. The group stayed connected and coordinated via calls and video calls during planning. However, the process took considerable time.
-She also mentioned that managing tickets and travel documents was frustrating, especially when shared among the group, as it was disorganized and scattered.
-Overall, she showed strong interest in our idea and is eager to try it for her future travel planning.
