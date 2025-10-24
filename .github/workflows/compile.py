@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any
 
 fileBasePath:str = "documents"
-compileBlackList: list[str] = ["lib", "assets"]
+compileBlackList: list[str] = ["lib", "assets","interviews"]
 
 def searchTypstFiles() -> list:
     fileList: list = []
@@ -27,7 +27,7 @@ def typstCompile(filePath: str) -> bool:
             os.makedirs(outputFolder, exist_ok=True)
 
         logging.debug(f'Compiling {filePath} to {outputFile}')
-        args: list = ["typst","compile",filePath,outputFile]
+        args: list = ["typst","compile",filePath,outputFile,"--root","./documents/"]
         try:
             result: subprocess.CompletedProcess[Any] = subprocess.run(
             args=args,
@@ -39,7 +39,8 @@ def typstCompile(filePath: str) -> bool:
         except subprocess.CalledProcessError as err:
             logging.error(f'Compiling process for file {filePath} failed. Error: {err.stderr}')
             return False
-    
+    else:
+        logging.debug(f'Skipping {filePath}: blacklisted word found in path')
     return True
 
 def multiThreadCompiling(fileList: list) -> bool:
