@@ -13,6 +13,7 @@ html {
     text-align: center;
     margin: 0;
     padding: 0;
+    scrollbar-width: thin;
 }
 
 body {
@@ -150,6 +151,19 @@ footer a.teamUserLink img {
     border: 1px solid black
 }
 
+@media (max-width: 1404px) {
+    ul {
+        padding: 0;
+        columns: 1;
+        column-gap: 0;
+    }
+
+    li {
+        list-style-type: none;
+        width: 100%;
+    }
+}
+
 @media (max-width: 740px) {
 
     header {
@@ -160,7 +174,6 @@ footer a.teamUserLink img {
         max-height: auto;
         margin: auto 20%;
         margin-bottom: 1em;
-        padding-top: 3em;
         display: flex;
         flex-direction: column;
         justify-content: center;
