@@ -27,7 +27,7 @@ def typstCompile(filePath: str) -> bool:
             os.makedirs(outputFolder, exist_ok=True)
 
         logging.debug(f'Compiling {filePath} to {outputFile}')
-        args: list = ["typst","compile",filePath,outputFile,"--root","~/documents/"]
+        args: list = ["typst","compile",filePath,outputFile,"--root","./documents/"]
         try:
             result: subprocess.CompletedProcess[Any] = subprocess.run(
             args=args,
