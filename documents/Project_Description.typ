@@ -12,25 +12,25 @@
 #doc("Application preliminary analysis")[
   = Application analysis
 
-  The application has the purpose of guiding the user throughout the process of setting up his or her travel, comparing prices, providing suggestions and proposing itineraries. The guideline is composed by steps, for instance flights purchase followed by accommodations booking, thus the user can easly choose the best options for his or her travel assisted by an Artifical Intelligence (AI) tool.
+  The application has the purpose of guiding the user throughout the process of setting up his or her travel, comparing prices, providing suggestions and proposing itineraries. The guideline is composed by steps, for instance flights purchase followed by accommodations booking, thus the user can easily choose the best options for his or her travel assisted by an Artificial Intelligence (AI) tool.
 
-  Two type of platforms are designed for fully satisfing user needs:
+  Two type of platforms are designed for fully satisfying user needs:
 
   - *web site* - since the majority of travellers organize their trips using a computer, because of screens size and more flexibility of browsers, a web site is provided with all features necessary for setting up the journey;
 
-  - *web application* or *mobile application* - after completing the organization process, all information are easly consultable on mobile devices which are more often used during travels.
+  - *web application* or *mobile application* - after completing the organization process, all information are easily consultable on mobile devices which are more often used during travels.
 
-  The scope of the AI tool is to provide suggestions about prices, locations and transports, not to complete purchases. This action, in fact, would require partnerships with several companies of flights and accommodations booking, and public services such as public transports and museums. Therefore, links to the actual platforms for ultimating the purchases are supplied in the web site, so that the user, after completed the process, can indicate that the payment has been made. Finally, the user can check all reservations, payments and even the entire itinerary on his or her mobile device.
+  The scope of the AI tool is to provide suggestions about prices, locations and transports, not to complete purchases. This action, in fact, would require partnerships with several companies of flights and accommodations booking, and public services such as public transports and museums. Therefore, links to the actual platforms for finalize the purchases are supplied in the web site, so that the user, after completed the process, can indicate that the payment has been made. Finally, the user can check all reservations, payments and even the entire itinerary on his or her mobile device.
 
   == Problem analysis
 
-  Some platforms that look for best prices of flight tickets already exists, as well as those for hotels booking. Some web sites or forums are also well focused on presenting point of interests and most popular attractions, however searching all information on your own becomes very dispersive and frustating. The *latent problem* the application is willing to solve is about inefficient preparation of travels. More in details, the problem can be charatterized in the following "sub-problems":
+  Some platforms that look for best prices of flight tickets already exists, as well as those for hotels booking. Some web sites or forums are also well focused on presenting point of interests and most popular attractions, however searching all information on your own becomes very dispersive and frustrating. The *latent problem* the application is willing to solve is about inefficient preparation of travels. More in details, the problem can be characterized in the following "sub-problems":
 
   - *time save* - the AI tool is able to speed up the process of searching information in internet, especially when looking for point of interests in places the traveller is unfamiliar with. Additionally it is more efficient in comparing alternatives, making the user check different options easier;
 
   - *money save* - the AI tool is also able to propose itineraries scheduling the trip day-by-day, providing, besides, cheaper options with regarding to traveller's budget, for instance suggesting a museum that offers discounts in particular days. This kind of treatment is also supplied by travel agencies, but costs can increase significantly;
 
-  - *better information organization* - the web application or the mobile application have the scope of keeping all information in one read-to-use place. The goal is to facilitate the access to data of reservations, itineraries and personal notes in order to make the travel experiene easier and more enjoyable.
+  - *better information organization* - the web application or the mobile application have the scope of keeping all information in one read-to-use place. The goal is to facilitate the access to data of reservations, itineraries and personal notes in order to make the travel experience easier and more enjoyable.
 
   _Discover With AI_ aims to bundle the existing services into an all-in-one platform in order to improve the travel experience and make this type of activity more affordable still keeping a good balance between prices and quality.
 
@@ -44,7 +44,7 @@
 
   === End users
 
-  /*End users are people economically disposed to make a trip, a travel or a journey, interested in save money but at the same time not so willing to organize every single detail. Travel agencies can ease user's responsabilities but they might be significantly expensive and so not affordable for everyone. Ultimately, end users may be young adults, in the range between 20 and 40 years old, who would like  to prepare an holiday with friends or the family, but they can be also adolescents who are approaching this type of experience for the first time.*/
+  /*End users are people economically disposed to make a trip, a travel or a journey, interested in save money but at the same time not so willing to organize every single detail. Travel agencies can ease user's responsibilities but they might be significantly expensive and so not affordable for everyone. Ultimately, end users may be young adults, in the range between 20 and 40 years old, who would like  to prepare an holiday with friends or the family, but they can be also adolescents who are approaching this type of experience for the first time.*/
 
   End users are people with the economical possibilities to organize a trip, travel or journey, but that are also interested into saving money where possible without the burden of organize in depth every single detail. Travel agencies can ease user's responsibilities, however they may require an expensive commission that could be unaffordable for a significant portion of travelers.
 
@@ -123,8 +123,7 @@
   Before actively starting the interview process, we thoroughly prepared by studying techniques to maximize the information extracted from our interviewees ad wrote a small interview guide with a structured list of *core* questions. Additionally, we considered recruiting participants that best represented our user personas to ensure meaningful insights. This preparation helped us understand exactly what to ask and how to create a comfortable environment conducive to honest and comprehensive responses, ultimately enhancing the quality and usefulness of the interviews.
 
   ==== Questions
-  // scemo chi legge
-
+  
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
@@ -134,22 +133,29 @@
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_Have you ever travel in the past?_],
+    [*Question*], [_Have you ever traveled in the past?_ <q3>],
     [*Goal*], [Check if a person has previous experience and has already done a similar journey.],
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*,], [_Why did you not travel before?_<q3>],
+    [*Question*,], [_Why did not you travel before?_],
     [*Goal*],
     [Investigate why the individual has not traveled before, specifically examining if common challenges related to organizing and finding reliable information are significant barriers.],
 
-    [*Linked to*], [#link(<q3>)[_Why did you not travel before?_]],
+    [*Linked to*], [#link(<q3>)[_Have you ever traveled in the past?_]],
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_Do you often travel solo or in group?_],
+    [*Question*], [_TODO: remove | How often do you travel?_],
+    [*Goal*],
+    [Check if someone has traveled before, so it reveals their level of experience and whether they travel regularly or just occasionally.],
+  )
+  #table(
+    columns: (auto, 1fr),
+    inset: 7pt,
+    [*Question*], [_Do you prefer to travel solo or in group?_],
     [*Goal*],
     [This is mainly to make the person feel more comfortable and to determine whether they were involved in organizing the journey.],
   )
@@ -162,7 +168,7 @@
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_Why do you not like to take initiative?_],
+    [*Question*], [_Why do not you like to take initiative?_],
     [*Goal*],
     [Check why the person does\`t like to take initiative because the majority of people get bored of finding information.],
 
@@ -171,26 +177,26 @@
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_How did you find all of the information you need?_],
+    [*Question*], [_How did you find all of the information you needed?_],
     [*Goal*], [Assess whether the process of gathering information was challenging or disorganized.],
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_How did you organized the journey?_],
+    [*Question*], [_Was searching information difficult?_],
+    [*Goal*], [Determine whether researching information was straightforward or not.],
+  )
+  #table(
+    columns: (auto, 1fr),
+    inset: 7pt,
+    [*Question*], [_How did you organize the journey?_],
     [*Goal*], [Understand the steps the person follows during the process.],
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_How much time did it took?_],
+    [*Question*], [_How much time did it take?_],
     [*Goal*], [Assess whether the process of finding information was lengthy and boring.],
-  )
-  #table(
-    columns: (auto, 1fr),
-    inset: 7pt,
-    [*Question*], [_Did you have some trouble while researching information?_],
-    [*Goal*], [Determine whether researching information straightforward or not.],
   )
   #table(
     columns: (auto, 1fr),
@@ -210,5 +216,33 @@
   These are the most important questions but to keep the conversation flowing naturally, we also include some minor questions to help the person feel more comfortable, encouraging honesty and potentially leading them to share additional insights.
 
   ==== Interviews
-  #link("https://discoverwithai.github.io/compiled/CompiledPDF/interviews/int_1.pdf")[Interview #1]
+  
+  All of the made interviews are accessible on the #link("https://discoverwithai.github.io/")[project's website] were an _ad hoc_ #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf")[document] can be found.
+
+  Here will be reported a link to each one of the interviews for the reader's convenience.
+
+  #table(
+    columns: (50%, 50%),
+    stroke: black,
+    align: (x,y) => {
+      if y==0 {
+        center+horizon
+      } else {
+        left
+      }
+    },
+    table.header([*Interview*],[*Link*]),
+    [Interview #1], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i1")[Direct link]],
+    [Interview #2], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i2")[Direct link]],
+    [Interview #3], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[Direct link]],
+    [Interview #4], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[Direct link]],
+    [Interview #5], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[Direct link]],
+    /*[Interview #6], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i6")[Direct link]],
+    [Interview #7], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[Direct link]],
+    [Interview #8], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i8")[Direct link]],
+    [Interview #9], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i9")[Direct link]],
+    [Interview #10], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i10")[Direct link]],
+    [Interview #11], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i11")[Direct link]],*/
+  )
+
 ]
