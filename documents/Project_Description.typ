@@ -199,6 +199,13 @@
     [*Goal*],
     [Determine whether the person settled due to time constraints or because they did not find anything of interest.],
   )
+  #table(
+    columns: (auto, 1fr),
+    inset: 7pt,
+    [*Question*], [_Was it easy to manage and keep track of all the travel tickets, passes and documents?_],
+    [*Goal*],
+    [Assess whether managing travel tickets caused user frustration and validate our hypothesis for the necessity of a feature that simplifies ticket handling.],
+  )
 
   These are the most important questions but to keep the conversation flowing naturally, we also include some minor questions to help the person feel more comfortable, encouraging honesty and potentially leading them to share additional insights.
 
