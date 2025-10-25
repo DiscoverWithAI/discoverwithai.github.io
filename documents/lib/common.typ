@@ -14,8 +14,7 @@
     text(size: 1.2em)[*#it*]
   }
   outline(depth: 4, title: text(size: 2em)[#v(1em) Index #v(1em)], indent: 1em)
-
-  pagebreak()
+  
 }
 
 #let doc(title, body) = {
@@ -52,10 +51,18 @@
 
   set heading(numbering: "1.")
 
-  show heading: h => [
+  show heading.where(level: 2): h => [
     #set align(left)
     #set text(size: 1.5em)
     #v(1em)
+    #h
+    #v(1em)
+  ]
+
+  show heading.where(level: 1): h => [
+    #set align(left)
+    #set text(size: 1.5em)
+    #pagebreak()
     #h
     #v(1em)
   ]
