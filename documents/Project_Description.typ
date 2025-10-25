@@ -209,5 +209,33 @@
   These are the most important questions but to keep the conversation flowing naturally, we also include some minor questions to help the person feel more comfortable, encouraging honesty and potentially leading them to share additional insights.
 
   ==== Interviews
-  #link("compiled/CompiledPDF/Idea_interview.pdf")[Interview #1]
+  
+  All of the made interviews are accessible on the #link("https://discoverwithai.github.io/")[project's website] were an _ad hoc_ #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf")[document] can be found.
+
+  Here will be reported a link to each one of the interviews for the reader's convenience.
+
+  #table(
+    columns: (50%, 50%),
+    stroke: black,
+    align: (x,y) => {
+      if y==0 {
+        center+horizon
+      } else {
+        left
+      }
+    },
+    table.header([*Interview*],[*Link*]),
+    [Interview #1], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i1")[Direct link]],
+    [Interview #2], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i2")[Direct link]],
+    [Interview #3], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[Direct link]],
+    [Interview #4], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[Direct link]],
+    [Interview #5], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[Direct link]],
+    /*[Interview #6], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i6")[Direct link]],
+    [Interview #7], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[Direct link]],
+    [Interview #8], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i8")[Direct link]],
+    [Interview #9], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i9")[Direct link]],
+    [Interview #10], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i10")[Direct link]],
+    [Interview #11], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i11")[Direct link]],*/
+  )
+
 ]

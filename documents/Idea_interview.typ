@@ -11,14 +11,14 @@
 #doc("Idea Interviews")[
   = First Interview <i1>
   #include("./interviews/int_1.typ")
-  = Second Interview
+  = Second Interview <i2>
   #include("./interviews/int_2.typ")
-  = Third Interview
+  = Third Interview <i3>
   #include("./interviews/int_3.typ")
   #v(-2em)
-  = Fourth Interview
+  = Fourth Interview <i4>
   #include("./interviews/int_4.typ")
   #v(-2em)
-  = Fifth Interview
+  = Fifth Interview <i5>
   #include("./interviews/int_5.typ")
 ]
