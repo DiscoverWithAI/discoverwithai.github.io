@@ -1,3 +1,5 @@
+#let orange = rgb("#f05000")
+
 #let firstPage(title) = {
   set page(
     margin: (top: 0pt, left: 0pt, right: 0pt, bottom: 0pt)
@@ -9,8 +11,6 @@
   align(horizon + center)[#text(size: 2em)[#title]]
 
   align(bottom + center)[$copyright$2025 The Discover With AI team]*/
-
-  let orange = rgb("#f05000")
 
   grid(
   columns: (35%, 65%),
@@ -27,8 +27,14 @@
   grid.cell(align: center+horizon)[$copyright$2025 The Discover With AI team]
 )
 
+  counter(page).update(1)
+
   set page(
     margin: auto,
+    footer: [
+      #align(center)[#context[#counter(page).display("1 of 1", both: true,)]] \
+      #place(dx: -71pt, dy: -2pt)[#rect(height: 50%, width: 135%, stroke: none, fill: orange)]
+    ]
   )
   pagebreak()
 
@@ -41,7 +47,6 @@
 }
 
 #let doc(title, body) = {
-  counter(page).update(1)
 
   show figure: set block(breakable: true)
   show link: it => underline(text(fill: blue)[#it])
@@ -49,7 +54,6 @@
   set text(overhang: false, hyphenate: false)
 
   set page(
-    numbering: "1 of 1",
     margin: auto,
     header: [
 
@@ -70,6 +74,10 @@
       #line(length: 100%)
 
     ],
+    footer: [
+      #align(center)[#context[#counter(page).display("1 of 1", both: true,)]] \
+      #place(dx: -71pt, dy: -2pt)[#rect(height: 50%, width: 135%, stroke: none, fill: orange)]
+    ]
   )
 
   set heading(numbering: "1.")

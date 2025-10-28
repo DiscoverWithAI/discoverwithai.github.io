@@ -1,14 +1,14 @@
 #import "./lib/common.typ": doc, firstPage
 #set document(
-  title: "Discover With AI - Interview #1",
+  title: "Discover With AI - Business idea validation interviews",
   author: "The Discover With AI team",
   description: "This document contains the interviews made",
   date: auto,
 )
 
-#firstPage([*Idea interviews*])
+#firstPage([*Business idea validation interviews*])
 
-#doc("Idea Interviews")[
+#doc("Business idea validation interviews")[
   = Introduction
 
   In order to validate problem and customers according to the *lean method*, conducting interviews is a strict necessity to assure the correctness of hypotheses.
@@ -22,14 +22,15 @@
   #pagebreak()
   == Second Interview <i2>
   #include "./interviews/int_2.typ"
+  #pagebreak()
   == Third Interview <i3>
   #include "./interviews/int_3.typ"
-  #v(-2em)
   == Fourth Interview <i4>
   #include "./interviews/int_4.typ"
-  #v(-2em)
+  #pagebreak()
   == Fifth Interview <i5>
   #include "./interviews/int_5.typ"
+  #pagebreak()
   == Sixth Interview <i6>
   #include "./interviews/int_6.typ"
 ]

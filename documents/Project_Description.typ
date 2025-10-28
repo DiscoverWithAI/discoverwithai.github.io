@@ -1,15 +1,15 @@
 #import "lib/common.typ": doc, firstPage
 
 #set document(
-  title: "Discover With AI - Application preliminary analysis",
+  title: "Discover With AI - Business idea report",
   author: "The Discover With AI team",
   description: "This document contains the preliminary analysis for the business project",
   date: auto,
 )
 
-#firstPage([*Application preliminary analysis*])
+#firstPage([*Business idea \ report*])
 
-#doc("Application preliminary analysis")[
+#doc("Business idea report")[
 
   = Problem and Customers validation
 
