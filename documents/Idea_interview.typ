@@ -9,18 +9,27 @@
 #firstPage([*Idea interviews*])
 
 #doc("Idea Interviews")[
-  = First Interview <i1>
+  = Introduction
+
+  In order to validate problem and customers according to the *lean method*, conducting interviews is a strict necessity to assure the correctness of hypotheses.
+
+  In this document the reader could find a detailed transcript for all of them.
+
+  *Note:* _Questions marked with the *\** symbol are minor and specific to the current discussion and are *not* part of the main questions._
+
+  == First Interview <i1>
   #include "./interviews/int_1.typ"
-  = Second Interview <i2>
+  #pagebreak()
+  == Second Interview <i2>
   #include "./interviews/int_2.typ"
-  = Third Interview <i3>
+  == Third Interview <i3>
   #include "./interviews/int_3.typ"
   #v(-2em)
-  = Fourth Interview <i4>
+  == Fourth Interview <i4>
   #include "./interviews/int_4.typ"
   #v(-2em)
-  = Fifth Interview <i5>
+  == Fifth Interview <i5>
   #include "./interviews/int_5.typ"
-  = Sixth Interview <i6>
+  == Sixth Interview <i6>
   #include "./interviews/int_6.typ"
 ]

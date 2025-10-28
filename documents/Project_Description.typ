@@ -10,7 +10,18 @@
 #firstPage([*Application preliminary analysis*])
 
 #doc("Application preliminary analysis")[
-  = Application analysis
+
+  = Problem and Customers validation
+
+  A business idea is something that merge together personal interests, capabilities and business capabilities.
+
+  Before starting to invest huge amount of money, however, is necessary to test the basis of our idea: after all, not all solutions have a problem and not all the problems have customers.
+
+  Therefore, it is easy to understand that before starting to implement, we, the Discover With AI team, need to validate our customers, our problem and, finally, our proposed solution with the help of the *lean method*.
+
+  /*= Application analysis
+
+  Solution should be put after customer/service evaluation
 
   The application has the purpose of guiding the user throughout the process of setting up his or her travel, comparing prices, providing suggestions and proposing itineraries. The guideline is composed by steps, for instance flights purchase followed by accommodations booking, thus the user can easily choose the best options for his or her travel assisted by an Artificial Intelligence (AI) tool.
 
@@ -20,7 +31,7 @@
 
   - *web application* or *mobile application* - after completing the organization process, all information are easily consultable on mobile devices which are more often used during travels.
 
-  The scope of the AI tool is to provide suggestions about prices, locations and transports, not to complete purchases. This action, in fact, would require partnerships with several companies of flights and accommodations booking, and public services such as public transports and museums. Therefore, links to the actual platforms for finalize the purchases are supplied in the web site, so that the user, after completed the process, can indicate that the payment has been made. Finally, the user can check all reservations, payments and even the entire itinerary on his or her mobile device.
+  The scope of the AI tool is to provide suggestions about prices, locations and transports, not to complete purchases. This action, in fact, would require partnerships with several companies of flights and accommodations booking, and public services such as public transports and museums. Therefore, links to the actual platforms for finalize the purchases are supplied in the web site, so that the user, after completed the process, can indicate that the payment has been made. Finally, the user can check all reservations, payments and even the entire itinerary on his or her mobile device.*/
 
   == Problem analysis
 
@@ -34,6 +45,8 @@
 
   _Discover With AI_ aims to bundle the existing services into an all-in-one platform in order to improve the travel experience and make this type of activity more affordable still keeping a good balance between prices and quality.
 
+  #pagebreak()
+
   == Customers analysis
 
   One of the most important topic to address when developing a business idea is identify the potential customers: without them, the idea cannot have no possibility of success, since customers are the people who ultimately determine the economic success of the to-be-developed platform.
@@ -42,13 +55,13 @@
 
   After careful considerations, the Discover With AI team identified the following customers described in the respective chapters.
 
-  === End users
+  === End users <end_users>
 
   /*End users are people economically disposed to make a trip, a travel or a journey, interested in save money but at the same time not so willing to organize every single detail. Travel agencies can ease user's responsibilities but they might be significantly expensive and so not affordable for everyone. Ultimately, end users may be young adults, in the range between 20 and 40 years old, who would like  to prepare an holiday with friends or the family, but they can be also adolescents who are approaching this type of experience for the first time.*/
 
   End users are people with the economical possibilities to organize a trip, travel or journey, but that are also interested into saving money where possible without the burden of organize in depth every single detail. Travel agencies can ease user's responsibilities, however they may require an expensive commission that could be unaffordable for a significant portion of travelers.
 
-  Ultimately, end users may also include young adults, specifically people between 20 and 50 years old, who would like to organize an holiday with friends and/or their families, and adolescents (between 16 and 19 years old) who are approaching this type of experience for the first time.
+  Specifically, end users are young adults (20-25 years old) and adults (between 26 and 50 years old) with those characteristics and who are willing to organize an holiday alone or with friends and/or their families, and adolescents (between 16 and 19 years old) who are approaching this type of experience for the first time. //? adolescents
 
   === Influencers
 
@@ -107,7 +120,7 @@
 
   Economic buyers, defined as the people who have the power to approve the purchase and/or the use of the service, could be identified in friends who together are trying to organize a group trip: they could suggest or deny the use of the platform.
 
-  Family members could also represent a potential economic buyer for the same reason, more importantly for the end users identified as teenagers, who don't possess the necessary economic resources needed for the travel.
+  Family members could also represent a potential economic buyer for the same reason, more importantly for the end users identified as teenagers, who don't possess the necessary economic resources needed for the travel. //?
 
   === Decision makers
 
@@ -115,14 +128,18 @@
 
   Decision buyers, identified in people who ultimately decide to acquire and/or use the platform, have to be identified in the journey organizers, who can find in our platform the best efficient solution.
 
+  #pagebreak()
 
-  === Problem validation
+  == Validation
 
-  To validate our problem hypothesis, we conducted an extensive series of interviews with our target users to thoroughly assess whether the identified problem truly exists.
-  This qualitative research was aimed at gathering detailed insights and authentic feedback to ensure that our solution addresses a real and pressing need among our final users.
-  Before actively starting the interview process, we thoroughly prepared by studying techniques to maximize the information extracted from our interviewees ad wrote a small interview guide with a structured list of *core* questions. Additionally, we considered recruiting participants that best represented our user personas to ensure meaningful insights. This preparation helped us understand exactly what to ask and how to create a comfortable environment conducive to honest and comprehensive responses, ultimately enhancing the quality and usefulness of the interviews.
+  To validate our problem and customers hypothesis, we conducted an extensive series of interviews with our target users to thoroughly assess whether the identified problem and customers truly exists.
 
-  ==== Questions
+  This qualitative research was aimed to gather detailed insights and authentic feedback to ensure that our solution addresses a real and pressing need among our final users.
+  Before actively starting the interview process, we thoroughly prepared by studying techniques to maximize the information extracted from our interviewees ad wrote a small interview guide with a structured list of *core* questions.
+  
+  Additionally, we considered recruiting participants that best represented our user personas to ensure meaningful insights. This preparation helped us understand exactly what to ask and how to create a comfortable environment conducive to honest and comprehensive responses, ultimately enhancing the quality and usefulness of the interviews.
+
+  === Questions
 
   #table(
     columns: (auto, 1fr),
@@ -163,7 +180,7 @@
     inset: 7pt,
     [*Question*], [_Why do not you like to take initiative?_],
     [*Goal*],
-    [Check why the person does\`t like to take initiative because the majority of people get bored of finding information.],
+    [Check why the person does not like to take initiative because the majority of people get bored of finding information.],
 
     [*Linked to*], [#link(<q5>)[_Do you like to take initiative and try to make an itinerary?_]],
   )
@@ -206,15 +223,15 @@
     [Assess whether managing travel tickets caused user frustration and validate our hypothesis for the necessity of a feature that simplifies ticket handling.],
   )
 
-  These are the most important questions but to keep the conversation flowing naturally, we also include some minor questions to help the person feel more comfortable, encouraging honesty and potentially leading them to share additional insights.
+  These are the most important questions but to keep the conversation flowing naturally, we also include some minor questions to help the person feel more comfortable, encouraging honesty and potentially leading them to share additional insights. See the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf")[interviews document] for additional information.
 
-  ==== Interviews
+  === Interviews <interviews>
 
   All of the made interviews are accessible on the #link("https://discoverwithai.github.io/")[project's website] were an _ad hoc_ #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf")[document] can be found.
 
-  Here will be reported a link to each one of the interviews for the reader's convenience.
+  The team initially started the validation process by conducting interviews on young adults: these are interviews from number 1 to 6. Some of them partially confuted initial customers hypothesis, see @pivoting for more detailed information. //? terminare descrizione
 
-  *Note:* _Questions marked with the *\** symbol are minor and specific to the current discussion and are *not* part of the main questions._
+  Here will be reported a link to each one of the interviews for the reader's convenience.
 
   #table(
     columns: (50%, 50%),
@@ -239,5 +256,15 @@
     [Interview #10], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i10")[Direct link]],
     [Interview #11], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i11")[Direct link]],*/
   )
+
+  #pagebreak()
+
+  === Pivoting <pivoting>
+  
+  As described in @interviews, the Discover With AI team firstly decided to validate the customer sector of young adults (see @end_users for a more detailed description).
+
+  While the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i1")[first], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i2")[second] and #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[third] conducted interviews confirmed our customers and problems hypotheses, suggesting that this kind of potential customers could be affected by the analyzed issue, the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[third], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[fourth] and #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[fifth] interviews underlined how this was not present in half of young adults.
+  
+  This led the team to partially correct the initial hypotheses about customers by understanding that young adults could not be a potential end user.
 
 ]

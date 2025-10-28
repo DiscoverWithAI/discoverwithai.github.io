@@ -15,9 +15,11 @@
   grid(
   columns: (35%, 65%),
   [#rect(fill: orange, width: 100%, height: 49%)],
-  grid.cell(inset: (x: 2em, y: 1em))[#text(size: 3em)[
-    #align(center)[#image("../assets/mage--preview-circle-fill.svg", width: 20%)] *DISCOVER WITH AI*
-  ]
+  grid.cell(inset: (x: 2em, y: 1em))[
+    #v(2em)
+    #align(center)[#image("../assets/mage--preview-circle-fill.svg", width: 20%)]
+    #v(-1em)
+    #text(size: 3em)[*DISCOVER WITH AI*]
   ],
   [#move(dy: -1pt)[#rect(height: 47%, width: 100%,fill: orange)]],
   grid.cell(align: right+top, inset: (x: 2em))[#text(3em)[#title]],
@@ -72,20 +74,26 @@
 
   set heading(numbering: "1.")
 
-  show heading.where(level: 2): h => [
-    #set align(left)
-    #set text(size: 1.5em)
-    #v(1em)
-    #h
-    #v(1em)
-  ]
-
   show heading.where(level: 1): h => [
     #set align(left)
     #set text(size: 1.5em)
     #pagebreak()
     #h
-    #v(1em)
+    #v(0.5em)
+  ]
+
+  show heading.where(level: 2): h => [
+    #set align(left)
+    #set text(size: 1.3em)
+    #h
+    #v(0.5em)
+  ]
+
+  show heading.where(level: 3): h => [
+    #set align(left)
+    #set text(size: 1.2em)
+    #h
+    #v(0.5em)
   ]
 
   body

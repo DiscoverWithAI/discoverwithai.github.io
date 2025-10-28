@@ -22,7 +22,7 @@
 *A:* We always used Discord, rarely we met physically. All of us, or at least some of us, discussed about flights, accommodations etc. sharing our screen while searching on the internet.
 #v(10pt)
 *Q: _How much time did it take?_*\
-*A:* It took quite a lot for every travel I did, especially because we always wanted to spend the minimum amount of money possible by, for,example, buying flight tickets months in advance. Even though me and my friends did not meet very often for preparing the travel, we spent several days in order to buy tickets, book accommodations and set up itineraries.
+*A:* It took quite a lot for every travel I did, especially because we always wanted to spend the minimum amount of money possible by, for example, buying flight tickets months in advance. Even though me and my friends did not meet very often for preparing the travel, we spent several days in order to buy tickets, book accommodations and set up itineraries.
 #v(10pt)
 *Q: _Were you satisfied with what you organized?_*\
 *A:* Yes, quite satisfied. Although getting everyone to agree was pretty difficult, I liked what we visited both in Malaga and in Pola (Croatia).
