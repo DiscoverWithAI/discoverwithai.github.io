@@ -4,7 +4,7 @@
 *A:* I am 22 years old.
 #v(10pt)
 *Q: _Have you ever traveled in the past?_*\
-*A:* Yes, I have traveled many times, actually. Since my third birthday, my parents have taken me with them on their annual summer vacations. I visited many places during these trips. Of course, I don't remember all of them because I was too young for some, but I clearly recall visiting Spain about four different times, each time in a different city. I also traveled to Portugal and Cuba several times, especially Cuba, which I went to around five times since it is where my mom was born. Besides that, I have been to some places in Italy, like Sardegna, once in Greece, and a few times in Austria and Croatia. I stopped traveling with my parents when I turned eighteen because I got bored of going on trips with them.
+*A:* Yes, I have traveled many times, actually. Since my third birthday, my parents have taken me with them on their annual summer vacations. I visited many places during these trips. Of course, I don't remember all of them because I was too young for some, but I clearly recall visiting Spain about four different times, each time in a different city. I also traveled to Portugal and Cuba several times, especially Cuba, which I went to around five times since it is where my mom was born. Besides that, I have been to some places in Italy, like Sardinia, once in Greece, and a few times in Austria and Croatia. I stopped traveling with my parents when I turned eighteen because I got bored of going on trips with them.
 #v(10pt)
 *Q: _Do you prefer to travel solo or in group?_*\
 *A:* Well, I have never traveled alone, so I would say that I prefer to travel in a group. Right now, I would really love to go on trips with my friends, but unfortunately, we all have different duties and plans. Also, we don’t have much money at the moment, so traveling together is difficult for us.
@@ -24,7 +24,7 @@
 *Q: _Were you satisfied with what you organized?_*\
 *A:* Considering that I spent a whole month just to create the most basic itinerary ever, I would say no.
 #v(10pt)
-*Q: _How did your parents organize the journey?_*\
+*Q: _How did your parents organize the journey?\*_*\
 *A:* I’m not sure exactly, but I think my dad, who is always in charge of booking hotels, flights, and other travel arrangements, has never made an itinerary either. He’s not a big fan of spending too much time searching for information online. He gets bored very quickly and usually gives up fast.
 #v(10pt)
 *Q: _Was it easy to manage and keep track of all the travel tickets, passes and documents?_*\

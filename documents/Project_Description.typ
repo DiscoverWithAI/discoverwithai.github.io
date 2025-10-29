@@ -227,7 +227,7 @@
 
   All of the made interviews are accessible on the #link("https://discoverwithai.github.io/")[project's website] were an _ad hoc_ #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf")[document] can be found.
 
-  The team initially started the validation process by conducting interviews on young adults: these are interviews from number 1 to 6. Some of them partially confuted initial customers hypothesis, see @pivoting for more detailed information. //? terminare descrizione
+  The team initially started the validation process by conducting interviews on young adults: these are interviews from number 1 to 7. Some of them partially confuted initial customers hypothesis, see @pivoting for more detailed information. //?
 
   Here will be reported a link to each one of the interviews for the reader's convenience.
 
