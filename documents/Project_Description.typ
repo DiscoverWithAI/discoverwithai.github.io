@@ -61,7 +61,7 @@
 
   End users are people with the economical possibilities to organize a trip, travel or journey, but that are also interested into saving money where possible without the burden of organize in depth every single detail. Travel agencies can ease user's responsibilities, however they may require an expensive commission that could be unaffordable for a significant portion of travelers.
 
-  Specifically, end users are young adults (20-25 years old) and adults (between 26 and 50 years old) with those characteristics and who are willing to organize an holiday alone or with friends and/or their families, and adolescents (between 16 and 19 years old) who are approaching this type of experience for the first time. //? adolescents
+  Specifically, end users are young adults (20-25 years old) and adults (between 26 and 50 years old) with those characteristics and who are willing to organize an holiday alone, with friends and/or their families. //? adolescents
 
   === Influencers
 
@@ -120,7 +120,7 @@
 
   Economic buyers, defined as the people who have the power to approve the purchase and/or the use of the service, could be identified in friends who together are trying to organize a group trip: they could suggest or deny the use of the platform.
 
-  Family members could also represent a potential economic buyer for the same reason, more importantly for the end users identified as teenagers, who don't possess the necessary economic resources needed for the travel. //?
+  Family members could also represent a potential economic buyer for the same reason, more importantly for the end users identified as young adults, who could need the platform in order to find the cheapest solutions possible. //?
 
   === Decision makers
 
@@ -159,7 +159,6 @@
     [*Question*,], [_Why did not you travel before?_],
     [*Goal*],
     [Investigate why the individual has not traveled before, specifically examining if common challenges related to organizing and finding reliable information are significant barriers.],
-
     [*Linked to*], [#link(<q3>)[_Have you ever traveled in the past?_]],
   )
   #table(
@@ -181,7 +180,6 @@
     [*Question*], [_Why do not you like to take initiative?_],
     [*Goal*],
     [Check why the person does not like to take initiative because the majority of people get bored of finding information.],
-
     [*Linked to*], [#link(<q5>)[_Do you like to take initiative and try to make an itinerary?_]],
   )
   #table(
@@ -250,8 +248,8 @@
     [Interview #4], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[Direct link]],
     [Interview #5], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[Direct link]],
     [Interview #6], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i6")[Direct link]],
-    /*[Interview #7], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[Direct link]],
-    [Interview #8], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i8")[Direct link]],
+    [Interview #7], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[Direct link]],
+    /*[Interview #8], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i8")[Direct link]],
     [Interview #9], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i9")[Direct link]],
     [Interview #10], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i10")[Direct link]],
     [Interview #11], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i11")[Direct link]],*/
@@ -263,8 +261,8 @@
   
   As described in @interviews, the Discover With AI team firstly decided to validate the customer sector of young adults (see @end_users for a more detailed description).
 
-  While the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i1")[first], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i2")[second] and #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[third] conducted interviews confirmed our customers and problems hypotheses, suggesting that this kind of potential customers could be affected by the analyzed issue, the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[third], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[fourth] and #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[fifth] interviews underlined how this was not present in half of young adults.
+  While the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i1")[first], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i2")[second] and #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i6")[sixth] conducted interviews confirmed our customers and problems hypotheses, suggesting that this kind of potential customers could be affected by the analyzed issue, the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[third], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[fourth], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[fifth] and #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[seventh] interviews underlined how this was not present in the majority of young adults.
   
-  This led the team to partially correct the initial hypotheses about customers by understanding that young adults could not be a potential end user.
+  This led the team to partially correct the initial hypotheses about customers by understanding that young adults could not be potential customers of the platform.
 
 ]
