@@ -27,3 +27,5 @@
 *Q: _Were you satisfied with what you organized?_*\
 *A:* Yes, quite satisfied, internet is a good source from which find what you are looking for.
 #v(10pt)
+*Q: _Was it easy to manage and keep track of all the travel tickets, passes and documents?_* \
+Let me think... I would say yes, for the most part: I usually suggest to send all of the documents to all of the participants via email using the same subject, so they can be easily retrievable. The only problem is when there is a lack of internet connectivity: it doesn't happen often, so we still didn't take care of it.

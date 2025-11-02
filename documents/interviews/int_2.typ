@@ -27,3 +27,5 @@
 *Q: _Were you satisfied with what you organized?_*\
 *A:* Yes, quite satisfied. Although getting everyone to agree was pretty difficult, I liked what we visited both in Malaga and in Pola (Croatia).
 #v(10pt)
+*Q: _Was it easy to manage and keep track of all the travel tickets, passes and documents?_* \
+Actually no, it was a mess: we use several different services in order to do the bookings and buy the various tickets, so we didn't have a single account with all of the documents. At the end, we sent everything in our WhatsApp group: fortunately the app has a "pin-messages" feature, but we definitely needed to setup the thing better.

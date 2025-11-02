@@ -27,7 +27,8 @@
 *Q: _Were you satisfied with what you organized?_*\
 *A:* Yes, quite satisfied: it could be because I don't really have high expectations so, until now, information I found on the internet and social networks helped me in the right measure, as well as chat bots.
 #v(10pt)
-
+*Q: _Was it easy to manage and keep track of all the travel tickets, passes and documents?_* \
+Well, yes, fairly easy: in one hand because we didn't have a lot of documents, because I like to improvise for the most part. In the other hand, my friends always setup a shared Google Drive folder, so we can find all of what we need there.
 // prenotazioni mail, maps, foto cartina
 
 // feat: stats tipo strava da postare >>
