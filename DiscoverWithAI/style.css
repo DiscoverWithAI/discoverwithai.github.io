@@ -1,0 +1,99 @@
+.fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #2c2c2c;
+}
+
+
+#p-container {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+header {
+    position: relative;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+header h1 {
+    color: #2c2c2c;
+    font-family: "Fjalla One";
+    font-size: 9rem;
+    text-align: center;
+    letter-spacing: 5%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%) translateZ(-9px) scale(1.9, 3);
+
+}
+
+#man {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('assets/man.png') 100% -30% no-repeat;
+    background-size: 80%;
+    transform: translateZ(-9px) scale(1.9);
+    z-index: -1;
+}
+
+#hills {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('assets/hills.png') center center no-repeat;
+    background-size: cover;
+    transform: translateZ(-5px) scale(1.5);
+    z-index: -1;
+    mask-image: linear-gradient(to bottom,
+            red,
+            blue);
+}
+
+#mountain {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background: url('assets/mount.png') center center no-repeat;
+    background-size: cover;
+    transform: translateZ(-8px) scale(1.8);
+    z-index: -1;
+}
+
+#sky {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background: url('assets/sky.png') center center no-repeat;
+    background-size: cover;
+    transform: translateZ(-10px) scale(2);
+    z-index: -1;
+}
+
+section {
+    background-color: #292929;
+    mask-image: linear-gradient(to top, black 95%, transparent);
+
+    /* background: linear-gradient(#00000000, #292929); */
+    padding-top: 200px;
+    color: white;
+    height: 4000px;
+    z-index: 0;
+}
