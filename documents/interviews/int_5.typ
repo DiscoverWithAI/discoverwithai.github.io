@@ -22,11 +22,10 @@
 *A:* Typically, I or my friends suggest an idea, if we like it enough we decide the dates and buy flights or train tickets, then we book an apartment and our preliminary preparation usually stop there, we often have a vague program as I mentioned before. If some attractions must be booked, for example the Louvre museum (in the case when I flew to Paris), then we obviously reserve them.
 #v(10pt)
 *Q: _How much time did it take?_*\
-*A:* Honestly I think a few days only, a week or two at most. 
+*A:* Honestly I think a few days only, a week or two at most.
 #v(10pt)
 *Q: _Were you satisfied with what you organized?_*\
 *A:* Yes, pretty satisfied. As I said before, I always find something to visit or simply some nice places to walk around, no matter the initial preparation phase.
 #v(10pt)
 *Q: _Was it easy to manage and keep track of all the travel tickets, passes and documents?_* \
 As I mentioned before, I don't think having a very large group is good for a trip, so there are not so many documents. Usually I keep all of my information in the phone notes, I never had large troubles by doing that.
-// he keeps info in apps, mails or notes
