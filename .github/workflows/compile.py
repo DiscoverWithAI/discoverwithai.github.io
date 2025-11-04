@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any
 
 fileBasePath:str = "documents"
-compileBlackList: list[str] = ["lib", "assets","interviews","notes"]
+compileBlackList: list[str] = ["lib", "assets","interviews","notes","DiscoverWithAI"]
 
 def searchTypstFiles() -> list:
     fileList: list = []

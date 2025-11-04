@@ -44,14 +44,22 @@ jobs:
           mkdir out/css
           mkdir out/img
           mkdir out/compiled
+          mkdir out/DiscoverWithAI
+          mkdir out/DiscoverWithAI/assets
       - name: Copy PDF files
         run: cp -a ./CompiledPDF ./out/compiled/
       - name: Copy HTML files
-        run: cp -a ./website/index.html ./out/
+        run: |
+          cp -a ./website/index.html ./out/
+          cp -a ./DiscoverWithAI/index.html ./out/DiscoverWithAI
       - name: Copy CSS files
-        run: cp -a ./website/css ./out/
+        run: |
+          cp -a ./website/css ./out/
+          cp -a ./DiscoverWithAI/style.css ./out/DiscoverWithAI
       - name: Copy images
-        run: cp -a ./website/img ./out/
+        run: |
+          cp -a ./website/img ./out/
+          cp -a ./DiscoverWithAI/assets ./out/DiscoverWithAI/assets
       - name: Upload Website Artifact
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
