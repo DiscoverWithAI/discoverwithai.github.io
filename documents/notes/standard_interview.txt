@@ -1,0 +1,29 @@
+*Q: _How old are you?_*\
+*A:*
+#v(10pt)
+*Q: _Have you ever holiday-traveled in the past?_*\
+*A:*
+#v(10pt)
+*Q: _Do you prefer to travel solo or in group?_*\
+*A:*
+#v(10pt)
+*Q: _Do you like to take initiative and try to make an itinerary?_*\
+*A:*
+#v(10pt)
+*Q: _How did you find all of the information you needed?_*\
+*A:*
+#v(10pt)
+*Q: _Was searching information difficult?_*\
+*A:*
+#v(10pt)
+*Q: _How did you organize the journey?_*\
+*A:*
+#v(10pt)
+*Q: _How much time did it take?_*\
+*A:*
+#v(10pt)
+*Q: _Were you satisfied with what you organized?_*\
+*A:*
+#v(10pt)
+*Q: _Was it easy to manage and keep track of all the travel tickets, passes and documents?_*\
+*A:*
