@@ -21,7 +21,7 @@ Obviously, nowadays the situation is completely different and Internet is my mai
 I must be honest, with the Internet the situation is not really better: while it's true that finding updated information is a lot easier, finding honest opinions and the true, cheapest option without some hidden fees written in a corner of a banner is a mess.
 #v(10pt)
 *Q: _How did you organize the journey?_*\
-*A:* In the past, after the long and extensive research I started calling for asking some additional information, room availability of hotels and, finally, book the room. Nowadays I would simply book all of the things online but, as I mentioned before, I pay organized trips with travel agencies, so they actually take care of everything.
+*A:* In the past, after the long and extensive research I proceeded with calling for asking some additional information, room availability of hotels and, finally, book the room. Nowadays I would simply book all of the things online but, as I mentioned before, I pay organized trips with travel agencies, so they actually take care of everything.
 #v(10pt)
 *Q: _How much time did it take?_*\
 *A:* A lot, about a month or two. With Internet the situation is a little bit better but still not enough.
