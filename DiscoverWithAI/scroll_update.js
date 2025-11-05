@@ -1,0 +1,59 @@
+window.onload = (_) => {
+
+    let navigators = Array.from(document.getElementsByClassName("navigator"));
+    navigators.forEach(nav => {
+        nav.onclick = () => {
+            ResetNavigators();
+            nav.classList.add("selected");
+
+        };
+    })
+
+    function ResetNavigators() {
+        navigators.forEach(nav => {
+            nav.classList.remove("selected");
+        })
+    }
+
+    const options = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.5
+    };
+
+    const aboutus = document.getElementById("aboutus");
+    const aboutusobserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                ResetNavigators();
+                navigators[0].classList.add("selected");
+            }
+            else {
+                ResetNavigators();
+            }
+        });
+    }, options);
+    aboutusobserver.observe(aboutus);
+
+    const idea = document.getElementById("idea");
+    const ideaobserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                ResetNavigators();
+                navigators[1].classList.add("selected");
+            }
+        });
+    }, options);
+    ideaobserver.observe(idea);
+
+    const form = document.getElementById("form");
+    const formobserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                ResetNavigators();
+                navigators[2].classList.add("selected");
+            }
+        });
+    }, options);
+    formobserver.observe(form);
+};
