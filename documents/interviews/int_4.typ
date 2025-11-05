@@ -3,7 +3,7 @@
 *Q: _How old are you?_*\
 *A:* I am 21 years old.
 #v(10pt)
-*Q: _Have you ever traveled in the past?_*\
+*Q: _Have you ever holiday-traveled in the past?_*\
 *A:* Yes a lot: I visited a huge number of places with my family since I was really young, even outside Europe. When I grow up a bit I started to travel with my friends: usually we don't go very far, destinations are often seas and mountains near our places.
 #v(10pt)
 *Q: _Do you prefer to travel solo or in group?_*\

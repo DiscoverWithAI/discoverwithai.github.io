@@ -3,7 +3,7 @@
 *Q: _How old are you?_*\
 *A:* I'm 23 years old.
 #v(10pt)
-*Q: _Have you ever traveled in the past?_*\
+*Q: _Have you ever holiday-traveled in the past?_*\
 *A:* Yes a lot, my parents bought a motorhome before I was born and we used it to travel every summer for as long as 4 weeks in a row. After the 2021 pandemic, however, me and my family did less and less trips, therefore I started to travel with my friends or my girlfriend.
 #v(10pt)
 *Q: _Do you prefer to travel solo or in group?_*\

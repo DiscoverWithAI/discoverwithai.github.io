@@ -3,7 +3,7 @@
 *Q: _How old are you?_*\
 *A:* I am 25 years old.
 #v(10pt)
-*Q: _Have you ever traveled in the past?_*\
+*Q: _Have you ever holiday-traveled in the past?_*\
 *A:* Yes, I do, I travel at least once per year. For example, I flew to Spain to meet one of my friends in Barcelona and the following year I came back to visit part of the south. My last travels were to Morocco and France, Paris to be precise, with my best friend Nicolò.
 #v(10pt)
 *Q: _Do you prefer to travel solo or in group?_*\
