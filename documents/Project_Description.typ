@@ -136,7 +136,7 @@
 
   This qualitative research was aimed to gather detailed insights and authentic feedback to ensure that our solution addresses a real and pressing need among our final users.
   Before actively starting the interview process, we thoroughly prepared by studying techniques to maximize the information extracted from our interviewees ad wrote a small interview guide with a structured list of *core* questions.
-  
+
   Additionally, we considered recruiting participants that best represented our user personas to ensure meaningful insights. This preparation helped us understand exactly what to ask and how to create a comfortable environment conducive to honest and comprehensive responses, ultimately enhancing the quality and usefulness of the interviews.
 
   === Questions
@@ -159,6 +159,7 @@
     [*Question*,], [_Why did not you travel before?_],
     [*Goal*],
     [Investigate why the individual has not traveled before, specifically examining if common challenges related to organizing and finding reliable information are significant barriers.],
+
     [*Linked to*], [#link(<q3>)[_Have you ever traveled in the past?_]],
   )
   #table(
@@ -180,6 +181,7 @@
     [*Question*], [_Why do not you like to take initiative?_],
     [*Goal*],
     [Check why the person does not like to take initiative because the majority of people get bored of finding information.],
+
     [*Linked to*], [#link(<q5>)[_Do you like to take initiative and try to make an itinerary?_]],
   )
   #table(
@@ -253,16 +255,28 @@
     [Interview #9], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i9")[Direct link]],
     [Interview #10], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i10")[Direct link]],
     [Interview #11], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i11")[Direct link]],*/
+    [Interview #13], [#link(
+      "https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i13",
+    )[Direct link]],
+    [Interview #14], [#link(
+      "https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i14",
+    )[Direct link]],
+    [Interview #15], [#link(
+      "https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i15",
+    )[Direct link]],
+    [Interview #16], [#link(
+      "https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i16",
+    )[Direct link]],
   )
 
   #pagebreak()
 
   === Pivoting <pivoting>
-  
+
   As described in @interviews, the Discover With AI team firstly decided to validate the customer sector of young adults (see @end_users for a more detailed description).
 
   While the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i1")[first], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i2")[second] and #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i6")[sixth] conducted interviews confirmed our customers and problems hypotheses, suggesting that this kind of potential customers could be affected by the analyzed issue, the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[third], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[fourth], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[fifth] and #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[seventh] interviews underlined how this was not present in the majority of young adults.
-  
+
   This led the team to partially correct the initial hypotheses about customers by understanding that young adults could not be potential customers of the platform.
 
 ]
