@@ -21,8 +21,9 @@ window.onload = (_) => {
         threshold: 0.5
     };
 
-    const aboutus = document.getElementById("aboutus");
-    const aboutusobserver = new IntersectionObserver((entries, observer) => {
+
+    const idea = document.getElementById("idea");
+    const ideaobserver = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 ResetNavigators();
@@ -33,10 +34,10 @@ window.onload = (_) => {
             }
         });
     }, options);
-    aboutusobserver.observe(aboutus);
+    ideaobserver.observe(idea);
 
-    const idea = document.getElementById("idea");
-    const ideaobserver = new IntersectionObserver((entries, observer) => {
+    const gallery = document.getElementById("gallery");
+    const galleryobserver = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 ResetNavigators();
@@ -44,7 +45,7 @@ window.onload = (_) => {
             }
         });
     }, options);
-    ideaobserver.observe(idea);
+    galleryobserver.observe(gallery);
 
     const form = document.getElementById("form");
     const formobserver = new IntersectionObserver((entries, observer) => {
@@ -56,4 +57,6 @@ window.onload = (_) => {
         });
     }, options);
     formobserver.observe(form);
+
+
 };

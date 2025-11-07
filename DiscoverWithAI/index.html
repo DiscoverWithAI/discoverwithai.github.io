@@ -10,12 +10,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
         <script src="scroll_update.js"></script>
+        <script src="animations.js"></script>
     </head>
 
     <body>
         <div id="points">
-            <a href="#aboutus" class="navigator" link-name="About Us"></a>
             <a href="#idea" class="navigator" link-name="Idea"></a>
+            <a href="#gallery" class="navigator" link-name="Gallery"></a>
             <a href="#form" class="navigator" link-name="Form"></a>
         </div>
         <div id="p-container">
@@ -28,25 +29,62 @@
             </header>
 
             <div id="pages">
-                <div id="aboutus" class="page">
-                    <div class="blur"></div>
-                    <section class="desc">
-                        <h2>ABOUT US</h2>
-                    </section>
-                    <section id="collabss">
-
-                    </section>
-                </div>
 
                 <div id="idea" class="page">
-                    <div class="blur"></div>
+                    <h2>THE IDEA</h2>
+                    <div id="processes-container">
+                        <div id="old-process">
+                            <h3>OLD WAY</h3>
+                            <div class="process-block">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                            </div>
+                            <div class="process-block">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                            </div>
+                            <div class="process-block">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                            </div>
+                            <div class="process-block">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="new-process">
+                            <h3>NEW WAY</h3>
+                            <div class="process-block">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                            </div>
+                            <div class="process-block">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                            </div>
+                            <div class="process-block">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="gallery" class="page">
                     <section class="desc">
-                        <h2>IDEA</h2>
+                        <h2>GALLERY</h2>
                     </section>
                 </div>
 
                 <div id="form" class="page">
-                    <div class="blur"></div>
                     <section class="desc">
                         <h2>FORM</h2>
                     </section>
@@ -54,6 +92,8 @@
                 </div>
             </div>
         </div>
+        <script src="https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
     </body>
 
 </html>
