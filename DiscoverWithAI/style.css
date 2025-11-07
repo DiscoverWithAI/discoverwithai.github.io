@@ -4,12 +4,18 @@
     font-style: normal;
 }
 
+
 :root {
-    --primary: #313647;
+    /* --primary: #313647;
+    --primary-a: rgba(49, 54, 71, 0.5);
     --secondary: #435663;
     --accent: #A3B087;
     --second-accent: #FFF8D4;
-    --general-bg: #2c2c2c;
+    --second-accent-a: rgba(255, 248, 212, 0.1);
+    --general-bg: #2c2c2c; */
+
+    --black: #1c1c1c;
+    --white: #fffaee;
 }
 
 * {
@@ -160,6 +166,10 @@ header h1 {
     box-sizing: content-box;
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 #aboutus {
@@ -179,9 +189,16 @@ header h1 {
     z-index: 0;
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px) brightness(80%);
 }
 
-.f {
+.desc {
     position: relative;
+    width: 40rem;
+    height: 35rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+    background-color: var(--primary-a);
+    border: 1px solid rgba(116, 121, 245, 0.174);
+    box-shadow: inset 0 1px 10px 1px #4356637f;
 }
