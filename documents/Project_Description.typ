@@ -37,11 +37,11 @@
 
   When talking about holiday travels, both short (2 to 5 days) and long (from 1 to about 2 weeks), some platforms that look for best prices of flight tickets already exists, as well as those for hotels booking. Some web sites or forums are also well focused on presenting point of interests and most popular attractions, however searching all information on your own becomes very dispersive and frustrating. The *latent problem* our solution is willing to solve is about inefficient preparation of holiday travels. Specifically, the problem can be more accurately described in the following "sub-problems":
 
-  - *time saving* - the AI tool is able to speed up the process of searching information in internet, especially when looking for point of interests in places the traveler is unfamiliar with. Additionally it is more efficient in comparing alternatives, making the user check different options easier;
+  - *time saving* - the process of searching information on the Internet could require a several amount of time, especially when looking for point of interests in places the traveler is unfamiliar with, also causing boredom and various difficulties. Additionally, sometimes it is difficult for the user to compare alternatives;
 
-  - *money saving* - the AI tool is also able to propose itineraries scheduling the trip day-by-day, providing, besides, cheaper options with regarding to traveler's budget, for instance suggesting a museum that offers discounts in particular days. This kind of treatment is also supplied by travel agencies, but costs can increase significantly;
+  - *money saving* - scheduling the trip day-by-day can be particularly challenging especially if finding the cheaper option is an important requirement for the user (for example, it could be difficult for the user organize the desired trip while a certain museum offers special discounts); /*the AI tool is also able to propose itineraries scheduling the trip day-by-day, providing, besides, cheaper options with regarding to traveler's budget, for instance suggesting a museum that offers discounts in particular days. This kind of treatment is also supplied by travel agencies, but costs can increase significantly;*/
 
-  - *better information organization* - the web application or the mobile application have the scope of keeping all information in one read-to-use place. The goal is to facilitate the access to data of reservations, itineraries and personal notes in order to make the travel experience easier and more enjoyable.
+  - *better information organization* - Because of the relevant quantity of booking services, tickets reservation services and other alike services, keeping track of everything can result in a difficult task to achieve in an efficient way, users struggle to find an efficient way to organize all of the various data. /*the web application or the mobile application have the scope of keeping all information in one read-to-use place. The goal is to facilitate the access to data of reservations, itineraries and personal notes in order to make the travel experience easier and more enjoyable.*/
 
   _Discover With AI_ aims to bundle the existing services into an all-in-one platform in order to improve the travel experience and make this type of activity more affordable still keeping a good balance between prices and quality.
 
@@ -151,7 +151,8 @@
     columns: (auto, 1fr),
     inset: 7pt,
     [*Question*], [_Have you ever holiday-traveled in the past?_ <q3>],
-    [*Goal*], [Check if a person has previous experience and has already done a similar journey.],
+    [*Goal*], [Check if a person has previous experience in journey organization, and so has previous experience.],
+    /*[*Goal*], [Check if a person has previous experience and has already done a similar journey.],*/
   )
   #table(
     columns: (auto, 1fr),
@@ -172,21 +173,23 @@
     columns: (auto, 1fr),
     inset: 7pt,
     [*Question*], [_Do you like to take initiative and try to make an itinerary?_<q5>],
-    [*Goal*], [Determine whether the person prefers to organize the entire journey or most of it.],
+    [*Goal*], [Determine whether the person organize the entire journey or most of it, helps validating end users and understanding if finding the cheapest option is a priority.],
+    /*[*Goal*], [Determine whether the person prefers to organize the entire journey or most of it.],*/
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
     [*Question*], [_Why do not you like to take initiative?_],
     [*Goal*],
-    [Check why the person does not like to take initiative because the majority of people get bored of finding information.],
+    [Check why the person does not like to take initiative because finds the information searching process boring or difficult.],
+     /*[Check why the person does not like to take initiative because the majority of people get bored of finding information.],*/
     [*Linked to*], [#link(<q5>)[_Do you like to take initiative and try to make an itinerary?_]],
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
     [*Question*], [_How did you find all of the information you needed?_],
-    [*Goal*], [Assess whether the process of gathering information was challenging or disorganized.],
+    [*Goal*], [Assess whether the process of gathering information was challenging or disorganized, so requiring large amount of time.],
   )
   #table(
     columns: (auto, 1fr),
@@ -198,7 +201,7 @@
     columns: (auto, 1fr),
     inset: 7pt,
     [*Question*], [_How did you organize the journey?_],
-    [*Goal*], [Understand the steps the person follows during the process.],
+    [*Goal*], [Understand the steps the person follows during the process, helps gathering information about real difficulty and time spent.],
   )
   #table(
     columns: (auto, 1fr),
@@ -252,7 +255,9 @@
     [Interview #8], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i8")[Direct link]],
     [Interview #9], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i9")[Direct link]],
     [Interview #10], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i10")[Direct link]],
-    /*[Interview #11], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i11")[Direct link]],*/
+    [Interview #11], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i11")[Direct link]],
+    [Interview #12], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i12")[Direct link]],
+
   )
 
   #pagebreak()

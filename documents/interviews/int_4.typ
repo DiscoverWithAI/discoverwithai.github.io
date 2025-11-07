@@ -10,7 +10,7 @@
 *A:* I've never traveled alone. However, when I'm with my family, I always struggle to find something I could find interesting to visit because I really don't like visiting museums, monuments and art galleries as my dad and my brother do. I instead prefer to walk around cities and take my time, without rushing.
 #v(10pt)
 *Q: _Do you like to take initiative and try to make an itinerary?_*\
-*A:* When I travel with my family I typically buy flights tickets and book the accommodation with my brother, after that I let him and my dad choose what to visit. On the other hand, when I travel with my friends, I always collaborate with them in order to minimize the required effort.
+*A:* When I travel with my family I typically buy flights tickets and book the accommodation with my brother, after that I let him and my dad choose what to visit. On the other hand, when I travel with my friends, I always collaborate with them in order to minimize the required effort and to find the cheapest option together.
 #v(10pt)
 *Q: _How did you find all of the information you needed?_*\
 *A:* I always use Google Maps so I can easily see what and where point of interests are, especially when I'm planning to go to places in mountains that are not well-known. Moreover, I often surf the internet, in particular YouTube and various social networks (on Reddit, for example, I always find very nice suggestions). Sometimes I ask ChatGPT what the most popular spots for spending some time with my friends are, like pubs and discos for example, when I go with them to seaside resorts.
