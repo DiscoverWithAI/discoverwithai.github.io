@@ -267,6 +267,9 @@
     [Interview #16], [#link(
       "https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i16",
     )[Direct link]],
+    [Interview #17], [#link(
+      "https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i17",
+    )[Direct link]],
   )
 
   #pagebreak()
