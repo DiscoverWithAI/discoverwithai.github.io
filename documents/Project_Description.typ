@@ -13,9 +13,9 @@
 
   = Problem and Customers validation
 
-  A business idea is something that merge together personal interests, capabilities and business capabilities.
+  A business idea is something that merges together personal interests, capabilities and business capabilities.
 
-  Before starting to invest huge amount of money, however, is necessary to test the basis of our idea: after all, not all solutions have a problem and not all the problems have customers.
+  Before starting to invest huge amounts of money, however, it is necessary to test the basis of our idea: after all, not all solutions have a problem and not all the problems have customers.
 
   Therefore, it is easy to understand that before starting to implement, we, the Discover With AI team, need to validate our customers, our problem and, finally, our proposed solution with the help of the *lean method*.
 
@@ -35,38 +35,38 @@
 
   == Problem analysis
 
-  When talking about holiday travels, both short (2 to 5 days) and long (from 1 to about 2 weeks), some platforms that look for best prices of flight tickets already exists, as well as those for hotels booking. Some web sites or forums are also well focused on presenting point of interests and most popular attractions, however searching all information on your own becomes very dispersive and frustrating. The *latent problem* our solution is willing to solve is about inefficient preparation of holiday travels. Specifically, the problem can be more accurately described in the following "sub-problems":
+  When talking about holiday travels, both short (2 to 5 days) and long (from 1 to about 2 weeks), some platforms that look for the best prices of flight tickets already exist, as well as those for hotel bookings. Some websites or forums are also well focused on presenting points of interest and most popular attractions; however, searching all information on your own becomes very dispersive and frustrating. The *latent problem* our solution is willing to solve is about inefficient preparation of holiday travels. Specifically, the problem can be more accurately described in the following "sub-problems":
 
-  - *time saving* - the process of searching information on the Internet could require a several amount of time, especially when looking for point of interests in places the traveler is unfamiliar with, also causing boredom and various difficulties. Additionally, sometimes it is difficult for the user to compare alternatives;
+  - *Time-saving* - thus the process of searching for information on the Internet could require a significant amount of time, especially when looking for points of interest in places the traveler is unfamiliar with, additionally causing boredom and various difficulties. Moreover, sometimes it is difficult for the user to compare alternatives;
 
-  - *money saving* - scheduling the trip day-by-day can be particularly challenging especially if finding the cheaper option is an important requirement for the user (for example, it could be difficult for the user organize the desired trip while a certain museum offers special discounts); /*the AI tool is also able to propose itineraries scheduling the trip day-by-day, providing, besides, cheaper options with regarding to traveler's budget, for instance suggesting a museum that offers discounts in particular days. This kind of treatment is also supplied by travel agencies, but costs can increase significantly;*/
+  - *Money saving* - scheduling the trip day-by-day can be particularly challenging, especially if finding the cheaper option is an important requirement for the user (for example, it could be difficult for the user to organize the desired trip while a certain museum offers special discounts); /*the AI tool is also able to propose itineraries scheduling the trip day-by-day, providing, besides, cheaper options with regarding to traveler's budget, for instance suggesting a museum that offers discounts in particular days. This kind of treatment is also supplied by travel agencies, but costs can increase significantly;*/
 
-  - *better information organization* - Because of the relevant quantity of booking services, tickets reservation services and other alike services, keeping track of everything can result in a difficult task to achieve in an efficient way, users struggle to find an efficient way to organize all of the various data. /*the web application or the mobile application have the scope of keeping all information in one read-to-use place. The goal is to facilitate the access to data of reservations, itineraries and personal notes in order to make the travel experience easier and more enjoyable.*/
+  - *Information organization* - because of the relevant quantity of booking services, ticket reservation services and other similar services, keeping track of everything can result in a difficult task to achieve efficiently, users struggle to find an efficient way to organize all the various data. /*the web application or the mobile application have the scope of keeping all information in one read-to-use place. The goal is to facilitate the access to data of reservations, itineraries and personal notes in order to make the travel experience easier and more enjoyable.*/
 
-  _Discover With AI_ aims to bundle the existing services into an all-in-one platform in order to improve the travel experience and make this type of activity more affordable still keeping a good balance between prices and quality.
+  _Discover With AI_ aims to bundle the existing services into an all-in-one platform in order to improve the travel experience and make this type of activity more affordable while still keeping a good balance between prices and quality.
 
   #pagebreak()
 
   == Customers analysis
 
-  One of the most important topic to address when developing a business idea is identify the potential customers: without them, the idea cannot have no possibility of success, since customers are the people who ultimately determine the economic success of the to-be-developed platform.
+  One of the most important topics to address when developing a business idea is identifying the potential customers: without them, the idea cannot have any possibility of success, since customers are the people who ultimately determine the economic success of the to-be-developed platform.
 
-  Customers are not only the *end users* of our product/service, but also *influencers*, *recommenders*, *economic buyers* and *decision makers*: each of them have to be carefully identified in order to maximize the possibilities of success.
+  Customers are not only the *end users* of our product/service, but *influencers*, *recommenders*, *economic buyers* and *decision makers* are customers too: each one of them has to be carefully identified in order to maximize the possibilities of success.
 
-  After careful considerations, the Discover With AI team identified the following customers described in the respective chapters.
+  After careful consideration, the Discover With AI team identified the following customers described in the respective chapters.
 
   === End users <end_users>
 
   /*End users are people economically disposed to make a trip, a travel or a journey, interested in save money but at the same time not so willing to organize every single detail. Travel agencies can ease user's responsibilities but they might be significantly expensive and so not affordable for everyone. Ultimately, end users may be young adults, in the range between 20 and 40 years old, who would like  to prepare an holiday with friends or the family, but they can be also adolescents who are approaching this type of experience for the first time.*/
 
-  End users are people with the economical possibilities to organize a trip, travel or journey, but that are also interested into saving money where possible without the burden of organize in depth every single detail. Travel agencies can ease user's responsibilities, however they may require an expensive commission that could be unaffordable for a significant portion of travelers.
+  End users are people with the economic possibilities to organize a trip, travel or journey, but who are also interested in saving money where possible without the burden of organizing in depth every single detail. Travel agencies can ease users's responsibilities, however they may require an expensive commission that could be unaffordable for a significant portion of travelers.
 
-  Specifically, end users are young adults (20-25 years old) and adults (between 26 and 50 years old) with those characteristics and who are willing to organize an holiday alone, with friends and/or their families. //? adolescents
+  Specifically, end users are young adults (20-25 years old) and adults (between 26 and 50 years old) with those characteristics and who are willing to organize a holiday alone, with friends and/or with their families. //? adolescents
 
   === Influencers
 
   /*mainly youtubers with which */
-  Influencers, defined as people who can particularly influence people's buying decisions, could be national and international content creators on various social networks (e.g. YouTube, Instagram, etc.) whose main covered topic is centered on travels suggestions and abroad experiences.
+  Influencers, defined as people who can particularly influence people's buying decisions, could be national and international content creators on various social networks (e.g. YouTube, Instagram, etc.) whose main covered topic is centered on travel suggestions and abroad experiences.
 
   Some examples are provided below:
 
@@ -89,7 +89,7 @@
     [#link("https://www.youtube.com/@safariumano")[YouTube] \ #link(
         "https://www.instagram.com/humansafari/",
       )[Instagram]],
-    [HumanSafari, also known as Nicolò Balini, is a popular italian travel influencer with over a million subscriber on YouTube, where he shared his experience in both well known countries and less attractive one, like the Democratic People's Republic of Korea.],
+    [HumanSafari, also known as Nicolò Balini, is a popular Italian travel influencer with over a million subscribers on YouTube, where he shared his experience in both well-known countries and less attractive ones, like the Democratic People's Republic of Korea.],
 
     [Abroad in Japan],
     [#link("https://www.youtube.com/abroadinjapan")[YouTube] \ #link(
@@ -101,24 +101,26 @@
     [#link("https://www.youtube.com/@CurrentlyHannah")[YouTube] \ #link(
         "https://www.instagram.com/currently.hannah/",
       )[Instagram]],
-    [Currently Hannah is a YouTube channel with over 561.000 subscribers mainly centered in Japan but with also content regarding Taiwan and Australia.],
+    [Currently Hannah is a YouTube channel with over 561.000 subscribers mainly centered in Japan but also with content regarding Taiwan and Australia.],
   )
 
   === Recommenders
 
   /*other users (friends and family members)*/
-  Recommenders, defined as people who can influence service usage in both a positive and negative way, could be identified in content creators who will receive an early access to the platform in order for them to provide a review, or seller who are willing to create a partnership with the platform for selling premium plans.
+  Recommenders, defined as people who can influence service usage in both a positive and negative way, could be identified as content creators who will receive early access to the platform in order for them to provide a review or sellers who are willing to create a partnership with the platform for selling premium plans.
 
   Lastly, other users of the platform itself could recommend or not the provided service.
   //if there are resellers for smartbox, why they could not sell our premium plans?
 
   //that previously used the software and so can provide valuable suggestion on the use of the platform.
 
-  === Economic buyers
+  === Economic buyers <eb>
 
   /*either travellers themselves or their parents (in case of teenagers)*/
 
   Economic buyers, defined as the people who have the power to approve the purchase and/or the use of the service, could be identified in friends who together are trying to organize a group trip: they could suggest or deny the use of the platform.
+
+  End-users, described in @end_users, can also be economic buyers if they travel alone.
 
   Family members could also represent a potential economic buyer for the same reason, more importantly for the end users identified as young adults, who could need the platform in order to find the cheapest solutions possible. //?
 
@@ -126,16 +128,16 @@
 
   //travellers themselves
 
-  Decision buyers, identified in people who ultimately decide to acquire and/or use the platform, have to be identified in the journey organizers, who can find in our platform the best efficient solution.
+  Decision buyers, identified as people who ultimately decide to acquire and/or use the platform, have to be identified in the journey organizers, who can find in our platform the best efficient solution.
 
   #pagebreak()
 
   == Validation
 
-  To validate our problem and customers hypothesis, we conducted an extensive series of interviews with our target users to thoroughly assess whether the identified problem and customers truly exists.
+  To validate our problem and customers hypothesis, we conducted an extensive series of interviews with our target users to thoroughly assess whether the identified problem and customers truly exist.
 
-  This qualitative research was aimed to gather detailed insights and authentic feedback to ensure that our solution addresses a real and pressing need among our final users.
-  Before actively starting the interview process, we thoroughly prepared by studying techniques to maximize the information extracted from our interviewees ad wrote a small interview guide with a structured list of *core* questions.
+  This qualitative research was aimed at gathering detailed insights and authentic feedback to ensure that our solution addresses a real and pressing need among our final users.
+  Before actively starting the interview process, we thoroughly prepared by studying techniques to maximize the information extracted from our interviewees and wrote a small interview guide with a structured list of *core* questions.
   
   Additionally, we considered recruiting participants that best represented our user personas to ensure meaningful insights. This preparation helped us understand exactly what to ask and how to create a comfortable environment conducive to honest and comprehensive responses, ultimately enhancing the quality and usefulness of the interviews.
 
@@ -173,7 +175,7 @@
     columns: (auto, 1fr),
     inset: 7pt,
     [*Question*], [_Do you like to take initiative and try to make an itinerary?_<q5>],
-    [*Goal*], [Determine whether the person organize the entire journey or most of it, helps validating end users and understanding if finding the cheapest option is a priority.],
+    [*Goal*], [Determine whether the person organizes the entire journey or most of it, helps validate end users and to understand whether finding the cheapest option is a priority or not.],
     /*[*Goal*], [Determine whether the person prefers to organize the entire journey or most of it.],*/
   )
   #table(
@@ -181,7 +183,7 @@
     inset: 7pt,
     [*Question*], [_Why do not you like to take initiative?_],
     [*Goal*],
-    [Check why the person does not like to take initiative because finds the information searching process boring or difficult.],
+    [Check why the person does not like to take initiative because of a boring/difficult information searching process.],
      /*[Check why the person does not like to take initiative because the majority of people get bored of finding information.],*/
     [*Linked to*], [#link(<q5>)[_Do you like to take initiative and try to make an itinerary?_]],
   )
@@ -189,19 +191,19 @@
     columns: (auto, 1fr),
     inset: 7pt,
     [*Question*], [_How did you find all of the information you needed?_],
-    [*Goal*], [Assess whether the process of gathering information was challenging or disorganized, so requiring large amount of time.],
+    [*Goal*], [Assess whether the process of gathering information was challenging or disorganized, therefore requiring a large amount of time.],
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
     [*Question*], [_Was searching information difficult?_],
-    [*Goal*], [Determine whether researching information was straightforward or not.],
+    [*Goal*], [Determining whether researching information was straightforward or not.],
   )
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
     [*Question*], [_How did you organize the journey?_],
-    [*Goal*], [Understand the steps the person follows during the process, helps gathering information about real difficulty and time spent.],
+    [*Goal*], [Understanding the steps the person follows during the process. Helps gather information about real difficulty and time spent.],
   )
   #table(
     columns: (auto, 1fr),
@@ -224,13 +226,13 @@
     [Assess whether managing travel tickets caused user frustration and validate our hypothesis for the necessity of a feature that simplifies ticket handling.],
   )
 
-  These are the most important questions but to keep the conversation flowing naturally, we also include some minor questions to help the person feel more comfortable, encouraging honesty and potentially leading them to share additional insights. See the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf")[interviews document] for additional information.
+  These are the most important questions, but to keep the conversation flowing naturally, we also include some minor questions to help the person feel more comfortable, encouraging honesty and potentially leading them to share additional insights. See the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf")[interviews document] for additional information.
 
   === Interviews <interviews>
 
-  All of the made interviews are accessible on the #link("https://discoverwithai.github.io/")[project's website] were an _ad hoc_ #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf")[document] can be found.
+  All the made interviews are accessible on the #link("https://discoverwithai.github.io/")[project's website], where an _ad hoc_ #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf")[document] can be found.
 
-  The team initially started the validation process by conducting interviews on young adults: these are interviews from number 1 to 7. Some of them partially confuted initial customers hypothesis, see @pivoting for more detailed information. //?
+  The team initially started the validation process by conducting interviews on young adults: these are interviews 1 to 7. Some of them partially confuted the initial customers hypothesis; see @pivoting for more detailed information. //?
 
   Here will be reported a link to each one of the interviews for the reader's convenience.
 
@@ -268,6 +270,6 @@
 
   While the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i1")[first], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i2")[second] and #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i6")[sixth] conducted interviews confirmed our customers and problems hypotheses, suggesting that this kind of potential customers could be affected by the analyzed issue, the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[third], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[fourth], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[fifth] and #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[seventh] interviews underlined how this was not present in the majority of young adults.
   
-  This led the team to partially correct the initial hypotheses about customers by understanding that young adults could not be potential customers of the platform.
+  This led the team to partially correct the initial hypotheses about customers by understanding that young adults could not be potential customers of the platform; therefore, they are removed from the end-users group (see @end_users) and family members are partially reconsidered as potential economic buyers (see @eb).
 
 ]
