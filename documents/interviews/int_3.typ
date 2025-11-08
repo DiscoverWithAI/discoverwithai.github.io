@@ -3,7 +3,7 @@
 *Q: _How old are you?_*\
 *A:* I'm 22 years old.
 #v(10pt)
-*Q: _Have you ever traveled in the past?_*\
+*Q: _Have you ever holiday-traveled in the past?_*\
 *A:* Yes, I have. The first time I traveled was when I went to Brazil: I was very young, only 3 years old, but I still manage to remember those moments. After several years I then flew to Washington. Finally, when I started high school I studied 6 months in South Africa and then I did several travels both on my own or with some friends of mine.
 #v(10pt)
 *Q: _Do you prefer to travel solo or in group?_*\

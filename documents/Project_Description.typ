@@ -35,11 +35,11 @@
 
   == Problem analysis
 
-  Some platforms that look for best prices of flight tickets already exists, as well as those for hotels booking. Some web sites or forums are also well focused on presenting point of interests and most popular attractions, however searching all information on your own becomes very dispersive and frustrating. The *latent problem* the application is willing to solve is about inefficient preparation of travels. More in details, the problem can be characterized in the following "sub-problems":
+  When talking about holiday travels, both short (2 to 5 days) and long (from 1 to about 2 weeks), some platforms that look for best prices of flight tickets already exists, as well as those for hotels booking. Some web sites or forums are also well focused on presenting point of interests and most popular attractions, however searching all information on your own becomes very dispersive and frustrating. The *latent problem* our solution is willing to solve is about inefficient preparation of holiday travels. Specifically, the problem can be more accurately described in the following "sub-problems":
 
-  - *time save* - the AI tool is able to speed up the process of searching information in internet, especially when looking for point of interests in places the traveller is unfamiliar with. Additionally it is more efficient in comparing alternatives, making the user check different options easier;
+  - *time saving* - the AI tool is able to speed up the process of searching information in internet, especially when looking for point of interests in places the traveller is unfamiliar with. Additionally it is more efficient in comparing alternatives, making the user check different options easier;
 
-  - *money save* - the AI tool is also able to propose itineraries scheduling the trip day-by-day, providing, besides, cheaper options with regarding to traveller's budget, for instance suggesting a museum that offers discounts in particular days. This kind of treatment is also supplied by travel agencies, but costs can increase significantly;
+  - *money saving* - the AI tool is also able to propose itineraries scheduling the trip day-by-day, providing, besides, cheaper options with regarding to traveller's budget, for instance suggesting a museum that offers discounts in particular days. This kind of treatment is also supplied by travel agencies, but costs can increase significantly;
 
   - *better information organization* - the web application or the mobile application have the scope of keeping all information in one read-to-use place. The goal is to facilitate the access to data of reservations, itineraries and personal notes in order to make the travel experience easier and more enjoyable.
 
@@ -150,7 +150,7 @@
   #table(
     columns: (auto, 1fr),
     inset: 7pt,
-    [*Question*], [_Have you ever traveled in the past?_ <q3>],
+    [*Question*], [_Have you ever holiday-traveled in the past?_ <q3>],
     [*Goal*], [Check if a person has previous experience and has already done a similar journey.],
   )
   #table(
@@ -251,8 +251,8 @@
     [Interview #5], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[Direct link]],
     [Interview #6], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i6")[Direct link]],
     [Interview #7], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[Direct link]],
-    /*[Interview #8], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i8")[Direct link]],
-    [Interview #9], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i9")[Direct link]],
+    [Interview #8], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i8")[Direct link]],
+    /*[Interview #9], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i9")[Direct link]],
     [Interview #10], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i10")[Direct link]],
     [Interview #11], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i11")[Direct link]],*/
     [Interview #13], [#link(
