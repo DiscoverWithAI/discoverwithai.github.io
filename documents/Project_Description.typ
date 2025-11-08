@@ -1,4 +1,4 @@
-#import "lib/common.typ": doc, firstPage
+#import "lib/common.typ": doc, firstPage, socialLink
 
 #set document(
   title: "Discover With AI - Business idea report",
@@ -80,27 +80,21 @@
       }
     },
 
-    table.header([*Username*], [*Platform*], [*Description*]),
+    table.header([*Username*], [*Platforms*], [*Description*]),
     [Zane Travel],
-    [#link("https://www.youtube.com/@zanetravel")[YouTube] \ #link("https://www.instagram.com/zane.jpegs/")[Instagram]],
+    [#socialLink(type: "yt",res: "https://www.youtube.com/@zanetravel") #socialLink(type: "ig",res: "https://www.instagram.com/zane.jpegs/")],
     [Zane Travel, pseudonym for Zane Sensenig, is a popular content creator who shared its travels to Japan, Korea, the Philippines, India, the United States of America and many others with its 138.000 worldwide subscribers],
 
     [Humansafari],
-    [#link("https://www.youtube.com/@safariumano")[YouTube] \ #link(
-        "https://www.instagram.com/humansafari/",
-      )[Instagram]],
+    [#socialLink(type: "yt",res: "https://www.youtube.com/@safariumano") #socialLink(type: "ig",res: "https://www.instagram.com/humansafari/")],
     [HumanSafari, also known as Nicolò Balini, is a popular Italian travel influencer with over a million subscribers on YouTube, where he shared his experience in both well-known countries and less attractive ones, like the Democratic People's Republic of Korea.],
 
     [Abroad in Japan],
-    [#link("https://www.youtube.com/abroadinjapan")[YouTube] \ #link(
-        "https://www.instagram.com/abroadinjapan/",
-      )[Instagram]],
+    [#socialLink(type: "yt",res: "https://www.youtube.com/abroadinjapan") #socialLink(type: "ig",res: "https://www.instagram.com/abroadinjapan/")],
     [Abroad in Japan is a popular YouTube channel created by the British Chris Broad. He's one of the most important foreign content creators in Japan],
 
     [Currently Hannah],
-    [#link("https://www.youtube.com/@CurrentlyHannah")[YouTube] \ #link(
-        "https://www.instagram.com/currently.hannah/",
-      )[Instagram]],
+    [#socialLink(type: "yt",res: "https://www.youtube.com/@CurrentlyHannah") #socialLink(type: "ig",res: "https://www.instagram.com/currently.hannah/")],
     [Currently Hannah is a YouTube channel with over 561.000 subscribers mainly centered in Japan but also with content regarding Taiwan and Australia.],
   )
 
