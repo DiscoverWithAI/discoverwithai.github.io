@@ -41,13 +41,25 @@
   == Eighth Interview <i8>
   #include "interviews/int_8.typ"
   #pagebreak()
-  == Thirdteenth Interview <i13>
+  == Ninth Interview <i9>
+  #include "interviews/int_9.typ"
+  #pagebreak()
+  == Tenth Interview <i10>
+  #include "interviews/int_10.typ"
+  #pagebreak()
+  == Eleventh Interview <i11>
+  #include "interviews/int_11.typ"
+  #pagebreak()
+  == Twelfth Interview <i12>
+  #include "interviews/int_12.typ"
+  #pagebreak()
+  == Thirteenth Interview <i13>
   #include "interviews/int_13.typ"
   #pagebreak()
   == Fourteenth Interview <i14>
   #include "interviews/int_14.typ"
   #pagebreak()
-  == Fifthteenth Interview <i15>
+  == Fifteenth Interview <i15>
   #include "interviews/int_15.typ"
   #pagebreak()
   == Sixteenth Interview <i16>

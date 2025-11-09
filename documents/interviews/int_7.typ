@@ -10,7 +10,7 @@
 *A:* Honestly, it's a bit complicated to answer because I never really travel alone or with friends, just with my parents and my sister. If I must answer, I would probably say that I would enjoy living a small journey with some of my closest friends, it could be a very particular experience. On the other hand, I think I wouldn't particularly enjoy a solo trip, even if organized in the smallest details, I think it would lack of one very important thing: people you could live the moment with, without them, I personally think that trip would be pretty boring, even if it's a short vacation.
 #v(10pt)
 *Q: _Would you like to take initiative and try to make an itinerary?_*\
-*A:* Honestly, not really: the burden of finding websites and put together dates, bookings and whatever else it's just not something for me. I would 100% ask someone to do the itinerary and all of the bookings for me, even if this would mean paying a small commission.
+*A:* Honestly, not really: the burden of finding websites and put together dates, bookings and whatever else it's just not something for me. I would 100% ask someone to do the itinerary and all of the bookings for me, even if this would mean paying a small commission and not travel with the cheapest option.
 #v(10pt)
 *Q: _When your mum organized a trip by herself, how did she exactly achieve that?\*_*\
 *A:* Mainly by surfing the web: first she searched for some location we never visited and then she started finding museums, hiking routes, tourists attractions and panoramic points. If successful, then she proceeded with finding an appropriate hotel in which we could rest.

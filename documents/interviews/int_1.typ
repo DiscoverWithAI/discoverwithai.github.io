@@ -3,20 +3,20 @@
  *Q: _How old are you?_*\
  *A:* Hi, I'm 22 years old.
  #v(10pt)
- *Q: _Have you ever travelled in the past?_*\
- *A:* Of course, I love travelling and have done so several times. I have visited several beautiful places in Spain and Greece, and one of my favorite destinations is Greece more precisely Zante, which left a lasting impression on me.
+ *Q: _Have you ever traveled in the past?_*\
+ *A:* Of course, I love traveling and have done so several times. I have visited several beautiful places in Spain and Greece, and one of my favorite destinations is Greece more precisely Zante, which left a lasting impression on me.
  #v(10pt)
  *Q: _Do you prefer to travel solo or in group?_*\
- *A:* My first trip was with a group of friends, and we went to Zante. We consulted a dedicated travel agency to get a rough idea of the entire trip, which helped us plan everything smoothly. It was a lot of fun, and since I had never travelled alone before, I currently prefer travelling with a group. However, I hope to experience solo travel in the future to discover new perspectives and challenges.
+ *A:* My first trip was with a group of friends, and we went to Zante. We consulted a dedicated travel agency to get a rough idea of the entire trip, which helped us plan everything smoothly. It was a lot of fun, and since I had never traveled alone before, I currently prefer traveling with a group. However, I hope to experience solo travel in the future to discover new perspectives and challenges.
  #v(10pt)
- *Q: _Why did you ask an agency to help?_*\
+ *Q: _Why did you ask an agency to help?\*_*\
  *A:* Mainly, we wanted to secure the best options at a lower cost. Unfortunately, we didn’t have enough time to organize the journey properly, so we had to make quick decisions to fit everything into our schedule.
  #v(10pt)
- *Q: _Were you satisfied?_*\
+ *Q: _Were you satisfied?\*_*\
  *A:* Not that much. I prefer to organize the journey myself because it gives me greater freedom and more options beyond the standard packages offered by travel agencies. With that said, I often seek advice from people who have experienced the same trip to gain unbiased and more personalized recommendations. This approach allows me to tailor the trip to my own preferences while benefiting from the valuable insights and firsthand experiences of others, making the overall journey more rewarding and unique.
  #v(10pt)
  *Q: _Do you like to take initiative and try to make an itinerary?_*\
- *A:* Yes, I do enjoy planning trips, but if someone else in my group is more willing to take the lead, I usually let them handle the main organization while definitely offering my support and assistance. The last time I travelled, a friend of mine took charge of organizing the trip, yet I remained actively involved throughout the process. I continuously suggested interesting places to visit and shared valuable information that I had found scattered across the internet. My contributions helped enhance our overall experience and ensured we made the most out of our journey.
+ *A:* Yes, I do enjoy planning trips, but if someone else in my group is more willing to take the lead, I usually let them handle the main organization while definitely offering my support and assistance. The last time I traveled, a friend of mine took charge of organizing the trip, yet I remained actively involved throughout the process. I continuously suggested interesting places to visit and shared valuable information that I had found scattered across the internet. My contributions helped enhance our overall experience and ensured we made the most out of our journey.
  #v(10pt)
  *Q: _How did you find all of the information you need?_*\
  *A:* I mainly found information and interesting places to visit on social networks like TikTok, Instagram, and YouTube. I follow many influencers who are specialized in travel content, which helps me discover unique destinations and insider tips that might not be as widely known.

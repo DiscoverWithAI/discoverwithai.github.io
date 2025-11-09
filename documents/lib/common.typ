@@ -1,5 +1,25 @@
 #let orange = rgb("#f05000")
 
+  #let socialLink(type: str, res: str) = {
+    if (type=="yt") {
+      grid(
+        columns: (15%, auto),
+        align: left,
+        column-gutter: 0.3em,
+        [#link(res)[#image("../assets/mdi--youtube.svg", width: 100%)]], [#link(res)[YouTube]]
+      )
+    } else if (type=="ig") {
+      grid(
+        columns: (15%, auto),
+        align: left,
+        column-gutter: 0.3em,
+        [#link(res)[#image("../assets/mdi--instagram.svg", width: 100%)]], [#link(res)[Instagram]]
+      )
+    } else {
+      panic("Not a supported social")
+    }
+  }
+
 #let firstPage(title) = {
   set page(
     margin: (top: 0pt, left: 0pt, right: 0pt, bottom: 0pt)
