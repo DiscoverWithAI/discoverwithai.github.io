@@ -15,4 +15,6 @@ async function submit() {
     const response = await fetch("https://abacus.jasoncameron.dev/hit/dwai-test-4/submission")
     const jsonFile = await response.json()
     document.getElementById("counter").innerText = jsonFile.value
+    window.location.hash = "#form"
+    return false
 }
