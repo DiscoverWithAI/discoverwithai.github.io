@@ -209,6 +209,8 @@
 
   These are the most important questions, but to keep the conversation flowing naturally, we also include some minor questions to help the person feel more comfortable, encouraging honesty and potentially leading them to share additional insights. See the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf")[interviews document] for additional information.
 
+  #pagebreak()
+
   === Interviews <interviews>
 
   All the made interviews are accessible on the #link("https://discoverwithai.github.io/")[project's website], where an _ad hoc_ #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf")[document] can be found.
@@ -217,37 +219,11 @@
 
   Here will be reported a link to each one of the interviews for the reader's convenience.
 
-  /*#table(
-    columns: (50%, 50%),
-    stroke: black,
-    align: (x, y) => {
-      if y == 0 {
-        center + horizon
-      } else {
-        left
-      }
-    },
-    table.header([*Interview*], [*Link*]),
-    [Interview #1], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i1")[Direct link]],
-    [Interview #2], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i2")[Direct link]],
-    [Interview #3], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[Direct link]],
-    [Interview #4], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[Direct link]],
-    [Interview #5], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[Direct link]],
-    [Interview #6], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i6")[Direct link]],
-    [Interview #7], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[Direct link]],
-    [Interview #8], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i8")[Direct link]],
-    [Interview #9], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i9")[Direct link]],
-    [Interview #10], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i10")[Direct link]],
-    [Interview #11], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i11")[Direct link]],
-    [Interview #12], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i12")[Direct link]],
-
-  )*/
-
   #table(
     columns: (15%, 40%, 45%),
     stroke: black,
     align: (x, y) => {
-      if y == 0 {
+      if (x == 0 or x==1) {
         center + horizon
       } else {
         left
@@ -266,11 +242,11 @@
     [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i10")[Interview #10]], [Adults, Positive], [Search for cheapest option, Difficult to search information, Could require time to organize trip, Easy to keep track of documents],
     [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i11")[Interview #11]], [Adults, Negative], [Not difficult to search for information even for cheap accommodations, Not much time required, Easy to keep track of information],
     [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i12")[Interview #12]], [Adults, Positive], [Not difficult to find information but activity requires lot of time, Could be difficult to keep track of documents for long travels.],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i13")[Interview #13]], [], [],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i14")[Interview #14]], [], [],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i15")[Interview #15]], [], [],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i16")[Interview #16]], [], [],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[Interview #17]], [], [],
+    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i13")[Interview #13]], [Adults, Positive], [Finding information is boring and could not show all possibilities, Costs are a problem, Can require some time due to boring process, Document organization could be difficult],
+    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i14")[Interview #14]], [Adults, Positive], [Organizing information could be difficult and time used could be optimize, Document organization could be time-consuming (not efficient)],
+    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i15")[Interview #15]], [Adults, Positive], [Information research process is boring and difficult if not done properly trip could became a loss of money, No difficulties in organizing documents],
+    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i16")[Interview #16]], [Adults, Positive], [Searching information and organization processes require time, Difficult to organize documents],
+    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[Interview #17]], [Adults, Positive], [Searching information could be more efficient: can require some time, Not difficult to organize documents.],
   )
 
   #pagebreak()
