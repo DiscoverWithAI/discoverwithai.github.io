@@ -11,27 +11,13 @@
 
 #doc("Business idea report")[
 
-  = Problem and Customers validation
+  = Problem and Customers
 
   A business idea is something that merges together personal interests, capabilities and business capabilities.
 
   Before starting to invest huge amounts of money, however, it is necessary to test the basis of our idea: after all, not all solutions have a problem and not all the problems have customers.
 
   Therefore, it is easy to understand that before starting to implement, we, the Discover With AI team, need to validate our customers, our problem and, finally, our proposed solution with the help of the *lean method*.
-
-  /*= Application analysis
-
-  Solution should be put after customer/service evaluation
-
-  The application has the purpose of guiding the user throughout the process of setting up his or her travel, comparing prices, providing suggestions and proposing itineraries. The guideline is composed by steps, for instance flights purchase followed by accommodations booking, thus the user can easily choose the best options for his or her travel assisted by an Artificial Intelligence (AI) tool.
-
-  Two type of platforms are designed for fully satisfying user needs:
-
-  - *web site* - since the majority of travellers organize their trips using a computer, because of screens size and more flexibility of browsers, a web site is provided with all features necessary for setting up the journey;
-
-  - *web application* or *mobile application* - after completing the organization process, all information are easily consultable on mobile devices which are more often used during travels.
-
-  The scope of the AI tool is to provide suggestions about prices, locations and transports, not to complete purchases. This action, in fact, would require partnerships with several companies of flights and accommodations booking, and public services such as public transports and museums. Therefore, links to the actual platforms for finalize the purchases are supplied in the web site, so that the user, after completed the process, can indicate that the payment has been made. Finally, the user can check all reservations, payments and even the entire itinerary on his or her mobile device.*/
 
   == Problem analysis
 
@@ -215,9 +201,9 @@
 
   All the made interviews are accessible on the #link("https://discoverwithai.github.io/")[project's website], where an _ad hoc_ #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf")[document] can be found.
 
-  The team initially started the validation process by conducting interviews on young adults: these are interviews 1 to 7. Some of them partially confuted the initial customers hypothesis; see @pivoting for more detailed information. //?
+  The team initially started the validation process by conducting interviews on young adults: these are interviews 1 to 7. Some of them partially confuted the initial customers hypothesis: see @pivoting for more detailed information.
 
-  Here will be reported a link to each one of the interviews for the reader's convenience.
+  Here will be reported a link to each one of the interviews for the reader's convenience, among with a summary of the key points of each interview.
 
   #table(
     columns: (15%, 40%, 45%),
@@ -258,5 +244,34 @@
   While the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i1")[first], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i2")[second] and #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i6")[sixth] conducted interviews confirmed our customers and problems hypotheses, suggesting that this kind of potential customers could be affected by the analyzed issue, the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[third], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[fourth], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[fifth] and #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[seventh] interviews underlined how this was not present in the majority of young adults.
   
   This led the team to partially correct the initial hypotheses about customers by understanding that young adults could not be potential customers of the platform; therefore, they are removed from the end-users group (see @end_users) and family members are partially reconsidered as potential economic buyers (see @eb).
+
+  = Solution
+
+  After validating the problem and the identified customers, therefore assuring the presence of a market, it's also important to accurately validate the theorized solution before starting the development process.
+
+  As for the customers and problem validation, the solution validation has also been conducted with the help of the *lean method*.
+
+  == Solution analysis
+
+  The application will consist of a chatbot powered by Artificial Intelligence (AI) technology, which will have the purpose of guiding the user throughout the process of setting up his or her travel by comparing prices, providing suggestions, and proposing itineraries, automatically providing the user with the cheapest available options in accordance with the travel plan, therefore saving time and money.
+  
+  /*The guideline is composed by steps, for instance flights purchase followed by accommodations booking, thus the user can easily choose the best options for his or her travel assisted by an Artificial Intelligence (AI) tool.*/
+
+  /*
+
+  These are distribution channels, should they be in the business model
+
+  Two type of platforms are designed for fully satisfying user needs:
+
+  - *web site* - since the majority of travelers organize their trips using a computer, because of screens size and more flexibility of browsers, a web site is provided with all features necessary for setting up the journey;
+
+  - *web application* or *mobile application* - after completing the organization process, all information are easily accessible on mobile devices which are more often used during travels.
+  */
+
+  The scope of the AI tool is to provide suggestions about prices, locations, and transport, not to complete purchases. This action would require partnerships with several companies for flights and accommodations booking, and public services such as public transportation and museums. Therefore, links for finalizing the purchases should be supplied throughout the journey organization process.
+  
+  Finally, the user can check all the reservations and the details of the entire itinerary on a dedicated page of the application, which will also give the possibility to automatically organize eventually provided documents.
+
+  == Validation
 
 ]
