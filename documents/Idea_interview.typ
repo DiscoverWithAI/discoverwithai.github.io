@@ -40,4 +40,16 @@
   #pagebreak()
   == Eighth Interview <i8>
   #include "interviews/int_8.typ"
+  #pagebreak()
+  == Ninth Interview <i9>
+  #include "interviews/int_9.typ"
+  #pagebreak()
+  == Tenth Interview <i10>
+  #include "interviews/int_10.typ"
+  #pagebreak()
+  == Eleventh Interview <i11>
+  #include "interviews/int_11.typ"
+  #pagebreak()
+  == Twelfth Interview <i12>
+  #include "interviews/int_12.typ"
 ]
