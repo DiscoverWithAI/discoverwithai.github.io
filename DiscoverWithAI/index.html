@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
         <script src="scroll_update.js"></script>
+        <script src="carousel.js"></script>
         <script src="animations.js"></script>
     </head>
 
@@ -123,12 +124,34 @@
                                         sapien tincidunt diam. Donec dignissim sollicitudin metus nec faucibus.
                                     </p>
                                 </div>
+                                <div id="d" class="photo-desc">
+                                    <img class="photo" src="https://placehold.co/200x200" alt="placeholder">
+                                    <p class="desc">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vulputate sem ac dignissim consequat. Curabitur a nibh condimentum, auctor leo sed, suscipit nulla. Praesent vehicula dolor ac mi aliquet
+                                        mattis. In
+                                        hac
+                                        habitasse platea dictumst.
+                                        Vivamus nec congue sem. Maecenas at est euismod ligula condimentum tincidunt nec id enim. Donec euismod mauris at massa tincidunt, pulvinar gravida dui congue. Integer iaculis, erat sit amet accumsan laoreet,
+                                        risus
+                                        ipsum pharetra mi, a porta massa
+                                        sapien tincidunt diam. Donec dignissim sollicitudin metus nec faucibus.
+                                    </p>
+                                </div>
                             </div>
-                            <div id="gallery-indicator">
-                                <a href="#a"></a>
-                                <a href="#b"></a>
-                                <a href="#c"></a>
-                            </div>
+                            <ul id="gallery-indicator">
+                                <li>
+                                    <a href="#a" class="indicator selected"></a>
+                                </li>
+                                <li>
+                                    <a href="#b" class="indicator"></a>
+                                </li>
+                                <li>
+                                    <a href="#c" class="indicator"></a>
+                                </li>
+                                <li>
+                                    <a href="#d" class="indicator"></a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -141,7 +164,7 @@
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vulputate sem ac dignissim consequat. Curabitur a nibh condimentum, auctor leo sed, suscipit nulla. Praesent vehicula dolor ac mi aliquet mattis.
                             </p>
                             <div id="form-container">
-                                <form action="" class="glass" id="user-form">
+                                <form action="#form" class="glass" id="user-form">
                                     <label id="email-label">
                                         Enter your email
                                         <input type="email" name="" id="">
