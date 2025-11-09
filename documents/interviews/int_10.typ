@@ -2,7 +2,7 @@
 *A:* I'm 29.
 #v(10pt)
 *Q: _Have you ever holiday-traveled in the past?_*\
-*A:* Quite a bit over the years. One of my most recent trips was in Tokyo, when I spent two weeks visiting the city, but I also visited other places around the world and in Italy, like Paris and Rome for example.
+*A:* Quite a bit over the years. One of my most recent trips was to Tokyo, when I spent two weeks visiting the city, but I also visited other places around the world, like Paris, for example, and Italy, in which I personally loved Rome.
 #v(10pt)
 *Q: _Do you prefer to travel solo or in group?_*\
 *A:* Honestly, I prefer traveling with a small group, like two or three friends at most, also because make the overall cost cheaper since we divide the various expenses. \

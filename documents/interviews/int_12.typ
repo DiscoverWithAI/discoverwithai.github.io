@@ -13,7 +13,7 @@ Personally I never did travels with my friends tho, only with my family and alon
 On the other hand, when I travel with my family we usually do the whole thing together.
 #v(10pt)
 *Q: _How did you find all of the information you needed?_*\
-*A:* Mainly using specialized search engines, like Google maps for searching interesting things to view, Trivago for hotels and Trainline for trains and public transport services. I big error I did was not searching for opinions about the various places: I trusted what I read on Google maps but sometimes reviews are simply fake or they don't reflect the current situation.
+*A:* Mainly using specialized search engines, like Google maps for searching interesting things to view, Trivago for hotels and Trainline for trains and public transport services. One big error I did was not searching for opinions about the various places: I trusted what I read on Google maps but sometimes reviews are simply fake or they don't reflect the current situation.
 #v(10pt)
 *Q: _Was searching information difficult?_*\
 *A:* Not really, maybe because I did only a superficial kind of research as maybe you could have understood. The real problem was time: search engines can compare prices but finding the right place that is close enough to an attraction and a public transport station it's something that requires time in order to be done properly.

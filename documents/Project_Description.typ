@@ -37,11 +37,11 @@
 
   When talking about holiday travels, both short (2 to 5 days) and long (from 1 to about 2 weeks), some platforms that look for the best prices of flight tickets already exist, as well as those for hotel bookings. Some websites or forums are also well focused on presenting points of interest and most popular attractions; however, searching all information on your own becomes very dispersive and frustrating. The *latent problem* our solution is willing to solve is about inefficient preparation of holiday travels. Specifically, the problem can be more accurately described in the following "sub-problems":
 
-  - *Time-saving* - thus the process of searching for information on the Internet could require a significant amount of time, especially when looking for points of interest in places the traveler is unfamiliar with, additionally causing boredom and various difficulties. Moreover, sometimes it is difficult for the user to compare alternatives;
+  - *Time saving* - thus the process of searching for information on the Internet could require a significant amount of time, especially when looking for points of interest in places the traveler is unfamiliar with, additionally causing boredom and various difficulties. Moreover, sometimes it is difficult for the user to compare alternatives;
 
-  - *Money saving* - scheduling the trip day-by-day can be particularly challenging, especially if finding the cheaper option is an important requirement for the user (for example, it could be difficult for the user to organize the desired trip while a certain museum offers special discounts); /*the AI tool is also able to propose itineraries scheduling the trip day-by-day, providing, besides, cheaper options with regarding to traveler's budget, for instance suggesting a museum that offers discounts in particular days. This kind of treatment is also supplied by travel agencies, but costs can increase significantly;*/
+  - *Money saving* - scheduling the trip day-by-day can be particularly challenging, especially if finding the cheaper option is an important requirement for the user (for example, it could be difficult for the user to organize the desired trip while a certain museum offers special discounts); 
 
-  - *Information organization* - because of the relevant quantity of booking services, ticket reservation services and other similar services, keeping track of everything can result in a difficult task to achieve efficiently, users struggle to find an efficient way to organize all the various data. /*the web application or the mobile application have the scope of keeping all information in one read-to-use place. The goal is to facilitate the access to data of reservations, itineraries and personal notes in order to make the travel experience easier and more enjoyable.*/
+  - *Information organization* - because of the relevant quantity of booking, ticket reservation and other similar services, keeping track of everything can result in a difficult task to achieve efficiently, users struggle to find an efficient way to organize all the various data.
 
   _Discover With AI_ aims to bundle the existing services into an all-in-one platform in order to improve the travel experience and make this type of activity more affordable while still keeping a good balance between prices and quality.
 
@@ -57,15 +57,12 @@
 
   === End users <end_users>
 
-  /*End users are people economically disposed to make a trip, a travel or a journey, interested in save money but at the same time not so willing to organize every single detail. Travel agencies can ease user's responsibilities but they might be significantly expensive and so not affordable for everyone. Ultimately, end users may be young adults, in the range between 20 and 40 years old, who would like  to prepare an holiday with friends or the family, but they can be also adolescents who are approaching this type of experience for the first time.*/
-
   End users are people with the economic possibilities to organize a trip, travel or journey, but who are also interested in saving money where possible without the burden of organizing in depth every single detail. Travel agencies can ease users's responsibilities, however they may require an expensive commission that could be unaffordable for a significant portion of travelers.
 
-  Specifically, end users are young adults (20-25 years old) and adults (between 26 and 50 years old) with those characteristics and who are willing to organize a holiday alone, with friends and/or with their families. //? adolescents
+  Specifically, end users are young adults (20-25 years old) and adults (between 26 and 50 years old) with those characteristics and who are willing to organize a holiday alone, with friends and/or with their families.
 
   === Influencers
 
-  /*mainly youtubers with which */
   Influencers, defined as people who can particularly influence people's buying decisions, could be national and international content creators on various social networks (e.g. YouTube, Instagram, etc.) whose main covered topic is centered on travel suggestions and abroad experiences.
 
   Some examples are provided below:
@@ -100,27 +97,19 @@
 
   === Recommenders
 
-  /*other users (friends and family members)*/
   Recommenders, defined as people who can influence service usage in both a positive and negative way, could be identified as content creators who will receive early access to the platform in order for them to provide a review or sellers who are willing to create a partnership with the platform for selling premium plans.
 
   Lastly, other users of the platform itself could recommend or not the provided service.
-  //if there are resellers for smartbox, why they could not sell our premium plans?
-
-  //that previously used the software and so can provide valuable suggestion on the use of the platform.
 
   === Economic buyers <eb>
-
-  /*either travellers themselves or their parents (in case of teenagers)*/
 
   Economic buyers, defined as the people who have the power to approve the purchase and/or the use of the service, could be identified in friends who together are trying to organize a group trip: they could suggest or deny the use of the platform.
 
   End-users, described in @end_users, can also be economic buyers if they travel alone.
 
-  Family members could also represent a potential economic buyer for the same reason, more importantly for the end users identified as young adults, who could need the platform in order to find the cheapest solutions possible. //?
+  Family members could also represent a potential economic buyer for the same reason, more importantly for the end users identified as young adults, who could need the platform in order to find the cheapest solutions possible.
 
   === Decision makers
-
-  //travellers themselves
 
   Decision buyers, identified as people who ultimately decide to acquire and/or use the platform, have to be identified in the journey organizers, who can find in our platform the best efficient solution.
 
@@ -148,7 +137,6 @@
     inset: 7pt,
     [*Question*], [_Have you ever holiday-traveled in the past?_ <q3>],
     [*Goal*], [Check if a person has previous experience in journey organization, and so has previous experience.],
-    /*[*Goal*], [Check if a person has previous experience and has already done a similar journey.],*/
   )
   #table(
     columns: (auto, 1fr),
@@ -170,7 +158,6 @@
     inset: 7pt,
     [*Question*], [_Do you like to take initiative and try to make an itinerary?_<q5>],
     [*Goal*], [Determine whether the person organizes the entire journey or most of it, helps validate end users and to understand whether finding the cheapest option is a priority or not.],
-    /*[*Goal*], [Determine whether the person prefers to organize the entire journey or most of it.],*/
   )
   #table(
     columns: (auto, 1fr),
@@ -178,7 +165,6 @@
     [*Question*], [_Why do not you like to take initiative?_],
     [*Goal*],
     [Check why the person does not like to take initiative because of a boring/difficult information searching process.],
-     /*[Check why the person does not like to take initiative because the majority of people get bored of finding information.],*/
     [*Linked to*], [#link(<q5>)[_Do you like to take initiative and try to make an itinerary?_]],
   )
   #table(
