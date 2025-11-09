@@ -9,7 +9,7 @@
 One thing I especially like of solo-traveling is the fact that you don't need to wait for anyone and you can take all of the time you want, so you can really live the place you currently at.
 #v(10pt)
 *Q: _Do you like to take initiative and try to make an itinerary?_*\
-*A:* Well, you can definitely say so: I love to organize my travel, especially because you can setup the thing exactly the way you want, but, unfortunately, it's quite time consuming. Back when I was younger I used to do that, a little bit at least, with some of my family travel but now I have to mainly resort on travel agencies because it's the only way I can manage to leave as soon as the vacation starts, even if this means spending a lot more money and not taking the cheaper solution.
+*A:* Well, you can definitely say so: I love to organize my travel, especially because you can setup the thing exactly the way you want, but, unfortunately, it's quite time consuming. Back when I was younger I used to do that, a little bit at least, with some of my family travel but now I have to mainly resort on travel agencies because it's the only way I can manage to leave as soon as the vacation starts, even if this means spending a lot more money and not taking the cheapest solution.
 #v(10pt)
 *Q: _How did you find all of the information you needed?_*\
 *A:* Well, back when I was young Internet was still something new, especially in Italy, so information were found by looking into specialized travel books. Fortunately a family friend traveled a lot in the past: every time he was a fundamental source of information. \
