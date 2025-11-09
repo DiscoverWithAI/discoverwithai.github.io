@@ -11,7 +11,16 @@ document.addEventListener("DOMContentLoaded", (event) => {
             repeatDelay: 1.5,
             yoyo: true,
         });
-
     }
+
+    // gsap.from("#counter", {
+    //     innerText: 0,
+    //     duration: 2,
+    //     ease: "power4.Out",
+    //     snap: {
+    //         innerText: 1
+    //     },
+    //     stagger: 0.1,
+    // });
 
 });
