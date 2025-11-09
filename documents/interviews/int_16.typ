@@ -17,7 +17,7 @@
 *A:*  The last time I went to Germany with my friends, and they did all the heavy work. We initially met up to make a list of things we wanted to visit, to get a general idea of what we wanted to do. Then they booked flights and everything and made an itinerary for all of us to follow. That way, we optimized our time and visited a lot of places.
 #v(10pt)
 *Q: _How much time did it take?_*\
-*A:* For them, I think it took almost three weeks, so for a journey of eight days, it seems way too much to me.
+*A:* For them, I think it took almost three weeks for a short journey of eight days: it seems way too much to me.
 #v(10pt)
 *Q: _Were you satisfied with what they organized?_*\
 *A:* Absolutely yes, the trip I just mentioned was the best I’ve ever had in my life, I think. We visited all the places we wanted to visit and much more—it was perfect.

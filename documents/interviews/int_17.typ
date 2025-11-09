@@ -2,7 +2,7 @@
 *A:* Hi, I am 29 years old.
 #v(10pt)
 *Q: _Have you ever holiday-traveled in the past?_*\
-*A:* I have taken many group trips over the years. For example, my group and I went on a two-week coast-to-coast bus tour across the United States a few years ago—a real marathon. More recently, we completed a highly optimized ten-day tour of Egypt, designed to see the main sights without wasting time on transfers.
+*A:* I have taken many group trips over the years. For example, my group and I went on a two-week coast-to-coast bus tour across the United States a few years ago — a real marathon. More recently, we completed a highly optimized ten-day tour of Egypt, designed to see the main sights without wasting time on transfers.
 #v(10pt)
 *Q: _Do you prefer to travel solo or in group?_*\
 *A:* Having traveled extensively in the past, I have noticed that traveling in groups, with proper planning, allows for cost sharing and itinerary optimization. For example, the last time I tried traveling alone, I wasted a lot of time just for deciding where to eat!
@@ -11,7 +11,7 @@
 *A:* Indeed, I’m not the only one in my group who likes to take initiative. We all actively participate and collaborate to plan our journey as best as we can. By sharing responsibilities and using collaborative tools, we ensure that everyone’s input is valued and the trip runs smoothly.
 #v(10pt)
 *Q: _How do your group find all of the information needed?_*\
-*A:* We usually prefer to use Google for information searches, focusing especially on reviews and blogs that we consider reliable, even it it takes quite some time to do so.
+*A:* We usually prefer to use Google for information searches, focusing especially on reviews and blogs that we consider reliable, even it takes quite some time to do so.
 #v(10pt)
 *Q: _How did your group organize the journey?_*\
 *A:* We immediately divide the work: when I draft the itinerary, I assign each person a 'theme.' For example, one person takes on the responsibility of understanding how trains and planes work, another has to find a decent and centrally located hostel, and I handle the opening hours and costs of museums and attractions. Essentially, everyone becomes the expert on a specific aspect.

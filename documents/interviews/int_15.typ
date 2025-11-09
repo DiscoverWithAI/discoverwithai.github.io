@@ -10,8 +10,8 @@
 *Q: _Do you like to take initiative and try to make an itinerary?_*\
 *A:* Even though I prefer to travel solo, I dislike making itineraries because researching information feels incredibly boring to me. I often don’t know where to find the right details. Because of this, most of the time I don’t create a fixed itinerary and instead decide what to do on a day-by-day basis during the trip.
 #v(10pt)
-*Q: _If you were to make even a small itinerary, How do you find all of the information you needed?_*\
-*A:* Well, if I had to imagine, I guess I would use Google to search for places near the area where I’ll be staying during my vacation. Alternatively, if I know someone who has already been there, I would ask them directly for recommendations and tips.
+*Q: _If you were to make even a small itinerary, How would you find all of the information you need?_*\
+*A:* Well, if I have to imagine, I guess I would use Google to search for places near the area where I’ll be staying during my vacation. Alternatively, if I know someone who has already been there, I would ask them directly for recommendations and tips.
 #v(10pt)
 *Q: _How did you organize the journey?_*\
 *A:*  As I mentioned, I don’t usually make a detailed itinerary. I only book the flights and the hotel where I want to stay. Once I arrive, I ask the locals about interesting places to visit or simply explore on my own. This approach allows me to enjoy a more spontaneous and flexible travel experience.
@@ -20,4 +20,4 @@
 *A:* Most of the time, yes, I manage well. However, there was one occasion when I booked a hotel far from the city center. Because of that, I couldn’t ask many people for recommendations, and there wasn’t much to see or do where I was staying. As a result, I ended up doing almost nothing for ten days, which felt like a huge waste of money. I’m certain that if I had planned my trip better and researched more interesting places to visit, I would have had a much better vacation.
 #v(10pt)
 *Q: _Was it easy to manage and keep track of all the travel tickets, passes and documents?_*\
-*A:* The majority of the time, yes, because like I said earlier, I book only the flights and the hotels so if I have to buy some tickets for museums of attraction or something like that, I do it the same day. That way, I don’t have to keep track of them since I know I will use them the same day.
+*A:* The majority of the time, yes, because of what I said earlier: I book only the flights and the hotels so if I have to buy some tickets for museums of attraction or something like that, I do it the same day. That way, I don’t have to keep track of them since I know I will use them the same day.

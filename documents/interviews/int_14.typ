@@ -13,10 +13,10 @@
 *A:* Yes, quite a lot, actually. I really enjoy creating itineraries and often like to surprise the people traveling with me. I put a lot of effort into planning each trip, and I frequently receive compliments about the journeys I organize. It feels rewarding to see everyone having a great time thanks to the planning I do.
 #v(10pt)
 *Q: _How did you find all of the information you needed?_*\
-*A:* I usually start my search on Google, but I rely even more on social networks like Facebook and Instagram. I follow many travel influencers who explore destinations all over the world, and through their posts, I often discover a lot of exciting and unique places to visit. Their recommendations really inspire my travel plans.
+*A:* I usually start my research on Google, but I tend to rely even more on social networks like Facebook and Instagram. I follow many travel influencers who explore destinations all over the world, and through their posts, I often discover a lot of exciting and unique places to visit. Their recommendations really inspire my travel plans.
 #v(10pt)
 *Q: _Was searching information difficult?_*\
-*A:* The searching part isn’t the most difficult for me. I would say the real challenge is gathering all the information and organizing it into a coherent itinerary. I’m not very skilled at organizing details, so I end up wasting a lot of time trying to put everything together. It’s also difficult for me to fit all the places I want to visit into the limited time I have available during the trip.
+*A:* The searching part isn’t the most difficult for me. I would say the real challenge is gathering all the information and organizing it into a coherent itinerary. I’m not very skilled at organizing details, so I end up wasting a lot of time trying to put everything together. It’s also difficult for me to fit all the places I want to visit into the limited time I have available for the trip.
 #v(10pt)
 *Q: _How did you organize the journey?_*\
 *A:*  Well, first I search for interesting places to visit on the internet and write them all down. Then, I try to create an itinerary that fits as many of those places as possible within the time frame I have available for the trip.
