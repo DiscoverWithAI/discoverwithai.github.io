@@ -144,6 +144,7 @@
     [*Question*,], [_Why did not you travel before?_],
     [*Goal*],
     [Investigate why the individual has not traveled before, specifically examining if common challenges related to organizing and finding reliable information are significant barriers.],
+
     [*Linked to*], [#link(<q3>)[_Have you ever traveled in the past?_]],
   )
   #table(
@@ -239,13 +240,17 @@
     [Interview #10], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i10")[Direct link]],
     [Interview #11], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i11")[Direct link]],
     [Interview #12], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i12")[Direct link]],
-
+    [Interview #13], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i13",)[Direct link]],
+    [Interview #14], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i14",)[Direct link]],
+    [Interview #15], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i15",)[Direct link]],
+    [Interview #16], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i16",)[Direct link]],
+    [Interview #17], [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i17",)[Direct link]],
   )
 
   #pagebreak()
 
   === Pivoting <pivoting>
-  
+
   As described in @interviews, the Discover With AI team firstly decided to validate the customer sector of young adults (see @end_users for a more detailed description).
 
   While the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i1")[first], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i2")[second] and #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i6")[sixth] conducted interviews confirmed our customers and problems hypotheses, suggesting that this kind of potential customers could be affected by the analyzed issue, the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[third], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[fourth], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[fifth] and #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[seventh] interviews underlined how this was not present in the majority of young adults.
