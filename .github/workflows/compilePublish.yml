@@ -46,6 +46,7 @@ jobs:
           mkdir out/compiled
           mkdir out/DiscoverWithAI
           mkdir out/DiscoverWithAI/assets
+          mkdir out/DiscoverWithAI/js
       - name: Copy PDF files
         run: cp -a ./CompiledPDF ./out/compiled/
       - name: Copy HTML files
@@ -61,7 +62,7 @@ jobs:
           cp -a ./website/img ./out/
           cp -a ./DiscoverWithAI/assets ./out/DiscoverWithAI/assets
       - name: Copy JavaScript files
-        run: cp -a ./DiscoverWithAI/scroll_update.js ./out/DiscoverWithAI 
+        run: cp -a ./DiscoverWithAI/js ./out/DiscoverWithAI/js
       - name: Upload Website Artifact
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
