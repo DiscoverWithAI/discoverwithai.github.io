@@ -30,11 +30,11 @@ document.addEventListener("DOMContentLoaded", (_) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 clearInterval(interval);
-                interval = setInterval((_) => {
-                    page = (page + 1) % (navigators.length);
-                    console.log(scrollable.clientWidth)
-                    scrollable.scroll(scrollable.clientWidth * page, 0)
-                }, 5000);
+                // interval = setInterval((_) => {
+                //     page = (page + 1) % (navigators.length);
+                //     console.log(scrollable.clientWidth)
+                //     scrollable.scroll(scrollable.clientWidth * page, 0)
+                // }, 5000);
             }
         });
     }, options);

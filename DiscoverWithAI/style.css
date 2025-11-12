@@ -74,7 +74,8 @@ header h1 {
 .wrapper {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 0;
+    flex: 1;
 }
 
 .maxw {
@@ -83,12 +84,7 @@ header h1 {
     display: flex;
     flex-direction: column;
     height: 100%;
-}
-
-#man {
-    background: url('assets/img/man.png') 100% -30% no-repeat;
-    background-size: 80%;
-    transform: translateZ(-9px) scale(1.9);
+    gap: 3rem;
 }
 
 #hills {
@@ -184,12 +180,8 @@ header h1 {
     height: 100vh;
     scroll-snap-align: start;
     scroll-snap-stop: always;
-    padding: 2% 5%;
+    padding: 3% 5%;
     position: relative;
-}
-
-#pages .page .content {
-    margin-top: 3rem;
 }
 
 #pages .page h2 {
@@ -203,12 +195,25 @@ header h1 {
 #idea #processes-container {
     display: flex;
     flex-direction: row;
-    gap: 3%;
+    gap: 10%;
+    flex: 1;
+    height: 0;
 }
 
 #idea #processes-container h3 {
     text-align: center;
     font-size: 2.5rem;
+}
+
+#idea #processes-container ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: inherit;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+    height: 0;
 }
 
 #idea #processes-container>div {
@@ -223,15 +228,18 @@ header h1 {
     max-width: 50%;
     min-width: 7rem;
     background-color: rgba(80, 80, 80, 0.131);
-    padding: 4% 4%;
+    padding: 4%;
     text-align: center;
     line-height: 100px;
     border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 1.3rem;
     transition: all 500ms;
 }
+
+#idea .process-block p {
+    font-size: 2cqb;
+}
+
 
 #idea .process-block:before {
     display: block;
@@ -264,6 +272,10 @@ header h1 {
 #idea #new-process .process-block:before {
     counter-increment: new;
     content: counter(new);
+}
+
+#idea #swipe-indicator {
+    display: none;
 }
 
 
@@ -300,7 +312,7 @@ header h1 {
 #gallery #gallery-container .photo-desc {
     min-width: 100%;
     height: 100%;
-    padding: 8%;
+    padding: 5%;
     display: flex;
     gap: 5rem;
     flex-direction: row;
@@ -314,14 +326,14 @@ header h1 {
     clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
     display: block;
     object-fit: cover;
-    height: 100%;
-    max-width: 50%;
+    height: 90%;
+    width: 50%;
 }
 
 #gallery #gallery-container .photo-desc>p {
-    width: 30%;
+    width: 50%;
     letter-spacing: 5%;
-    font-size: 1.1rem;
+    font-size: 2cqb;
     height: fit-content;
     transform: skewX(-7.5deg);
 }
@@ -367,7 +379,7 @@ header h1 {
 
 
 #form #user-content>p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 #form #form-container {
@@ -376,17 +388,19 @@ header h1 {
     height: 100%;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 #user-form {
+    width: 50%;
     padding: 3rem;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
     justify-content: start;
     gap: 2rem;
-    height: 50%;
+    height: 30%;
+    box-sizing: content-box;
 }
 
 
@@ -395,14 +409,9 @@ header h1 {
     margin-top: 1rem;
     width: 100%;
     font-size: 1.7rem;
-}
-
-#user-form #letter-label input {
-    height: 1.3rem;
-    width: 1.3rem;
-    vertical-align: baseline;
-    display: inline;
-    margin-right: 1rem;
+    background-color: var(--black-a);
+    border: 3px solid var(--white);
+    border-radius: 5px;
 }
 
 #user-form button {
@@ -410,9 +419,48 @@ header h1 {
     display: block;
     margin: 0 auto;
     text-align: center;
-    font-size: 2rem;
-    padding: 0.5rem 3rem;
+    font-size: 3cqb;
+    padding: 1rem;
     margin-top: auto;
+}
+
+#user-form button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: var(--white);
+    border-radius: 3px;
+    color: var(--black);
+    font-weight: 600;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+
+.svgIcon {
+    height: 25px;
+    transition-duration: 1.5s;
+}
+
+.bell path {
+    fill: var(--black);
+}
+
+#user-form button:hover {
+    background-color: rgb(222, 146, 6);
+    transition-duration: .5s;
+}
+
+#user-form button:active {
+    transform: scale(0.97);
+    transition-duration: .2s;
+}
+
+#user-form button:hover .svgIcon {
+    transform: rotate(250deg);
+    transition-duration: 1.5s;
 }
 
 #user-counter {
@@ -424,12 +472,14 @@ header h1 {
     margin-bottom: 1rem;
 }
 
-#form #thanks {
-    position: absolute;
+#thanks {
+    position: fixed;
+    color: var(--white);
     text-align: center;
-    bottom: -100px;
+    bottom: -999px;
+    z-index: 5;
     left: 50%;
     font-size: 3rem;
     letter-spacing: 5%;
-    transform: translateX(-50%);
+    transform: translate(-50%, 50%);
 }

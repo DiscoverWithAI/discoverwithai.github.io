@@ -1,4 +1,4 @@
-window.onload = (_) => {
+document.addEventListener("DOMContentLoaded", (_) => {
 
     let navigators = Array.from(document.getElementsByClassName("navigator"));
     navigators.forEach(nav => {
@@ -59,4 +59,4 @@ window.onload = (_) => {
     formobserver.observe(form);
 
 
-};
+});

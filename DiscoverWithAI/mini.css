@@ -1,0 +1,77 @@
+#points {
+    display: none;
+}
+
+#pages .page {
+    padding: 5% 5% 10% 5%;
+}
+
+#idea #processes-container {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: auto;
+}
+
+#idea #processes-container>div {
+    min-width: 100%;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+#idea .process-block {
+    min-width: 90%;
+    padding: 5%;
+}
+
+#idea #swipe-indicator {
+    display: block;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    letter-spacing: 5%;
+    transform: translateX(-50%);
+    background: radial-gradient(circle at 100%,
+            rgba(69, 69, 69, 0) 30%,
+            var(--white) 50%,
+            rgba(69, 69, 69,
+                0) 75%,
+            rgba(69, 69, 69,
+                0) 75%);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animatedTextGradient 2s linear infinite;
+}
+
+@keyframes animatedTextGradient {
+    to {
+        background-position: -200% center;
+    }
+}
+
+#pages .page h2 {
+    font-size: 3.5rem;
+}
+
+#gallery #gallery-container .photo-desc {
+    flex-direction: column;
+    gap: unset;
+}
+
+#gallery #gallery-container .photo-desc>img {
+    width: 100%;
+    height: 40%;
+}
+
+#gallery #gallery-container .photo-desc>p {
+    width: 80%;
+}
+
+#form #form-container {
+    flex-direction: column;
+}
+
+#user-form {
+    width: auto;
+    padding: 1.5rem;
+}

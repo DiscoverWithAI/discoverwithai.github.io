@@ -4,8 +4,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
         <title>Document</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" media='screen and (max-width: 500px)' href="mini.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
@@ -23,7 +25,6 @@
         </div>
         <div id="p-container">
             <header>
-                <div id="man" class="parallax"></div>
                 <div id="hills" class="parallax"></div>
                 <div id="mountain" class="parallax"></div>
                 <div id="sky" class="parallax"></div>
@@ -38,46 +39,51 @@
                         <div id="processes-container" class="content">
                             <div id="old-process">
                                 <h3>OLD WAY</h3>
-                                <div class="process-block glass">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    </p>
-                                </div>
-                                <div class="process-block glass">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    </p>
-                                </div>
-                                <div class="process-block glass">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    </p>
-                                </div>
-                                <div class="process-block glass">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    </p>
-                                </div>
+                                <ul>
+                                    <li class="process-block glass">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        </p>
+                                    </li>
+                                    <li class="process-block glass">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        </p>
+                                    </li>
+                                    <li class="process-block glass">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        </p>
+                                    </li>
+                                    <li class="process-block glass">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        </p>
+                                    </li>
+                                </ul>
                             </div>
                             <div id="new-process">
                                 <h3>NEW WAY</h3>
-                                <div class="process-block glass">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    </p>
-                                </div>
-                                <div class="process-block glass">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    </p>
-                                </div>
-                                <div class="process-block glass">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    </p>
-                                </div>
+                                <ul>
+                                    <li class="process-block glass">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        </p>
+                                    </li>
+                                    <li class="process-block glass">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        </p>
+                                    </li>
+                                    <li class="process-block glass">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        </p>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
+                        <p id="swipe-indicator">&rarr; Swipe left</p>
                     </div>
                 </div>
 
@@ -93,10 +99,6 @@
                                         mattis. In
                                         hac
                                         habitasse platea dictumst.
-                                        Vivamus nec congue sem. Maecenas at est euismod ligula condimentum tincidunt nec id enim. Donec euismod mauris at massa tincidunt, pulvinar gravida dui congue. Integer iaculis, erat sit amet accumsan laoreet,
-                                        risus
-                                        ipsum pharetra mi, a porta massa
-                                        sapien tincidunt diam. Donec dignissim sollicitudin metus nec faucibus.
                                     </p>
                                 </div>
                                 <div id="b" class="photo-desc">
@@ -106,10 +108,6 @@
                                         mattis. In
                                         hac
                                         habitasse platea dictumst.
-                                        Vivamus nec congue sem. Maecenas at est euismod ligula condimentum tincidunt nec id enim. Donec euismod mauris at massa tincidunt, pulvinar gravida dui congue. Integer iaculis, erat sit amet accumsan laoreet,
-                                        risus
-                                        ipsum pharetra mi, a porta massa
-                                        sapien tincidunt diam. Donec dignissim sollicitudin metus nec faucibus.
                                     </p>
                                 </div>
                                 <div id="c" class="photo-desc">
@@ -119,10 +117,6 @@
                                         mattis. In
                                         hac
                                         habitasse platea dictumst.
-                                        Vivamus nec congue sem. Maecenas at est euismod ligula condimentum tincidunt nec id enim. Donec euismod mauris at massa tincidunt, pulvinar gravida dui congue. Integer iaculis, erat sit amet accumsan laoreet,
-                                        risus
-                                        ipsum pharetra mi, a porta massa
-                                        sapien tincidunt diam. Donec dignissim sollicitudin metus nec faucibus.
                                     </p>
                                 </div>
                                 <div id="d" class="photo-desc">
@@ -132,10 +126,6 @@
                                         mattis. In
                                         hac
                                         habitasse platea dictumst.
-                                        Vivamus nec congue sem. Maecenas at est euismod ligula condimentum tincidunt nec id enim. Donec euismod mauris at massa tincidunt, pulvinar gravida dui congue. Integer iaculis, erat sit amet accumsan laoreet,
-                                        risus
-                                        ipsum pharetra mi, a porta massa
-                                        sapien tincidunt diam. Donec dignissim sollicitudin metus nec faucibus.
                                     </p>
                                 </div>
                             </div>
@@ -170,11 +160,15 @@
                                         Enter your email
                                         <input type="email" name="" id="">
                                     </label>
-                                    <label id="letter-label">
-                                        <input type="checkbox" name="" id="">
-                                        I want to recieve newsletter about the product
-                                    </label>
-                                    <button id="sub-btn" type="submit">I'M INTERESSED</button>
+                                    <!-- <button id="sub-btn" type="submit">I'M INTERESSED</button> -->
+                                    <button id="sub-btn" type="submit" class="button">
+                                        <svg class="svgIcon" viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                  d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm50.7-186.9L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z">
+                                            </path>
+                                        </svg>
+                                        IM INTERESSED
+                                    </button>
                                 </form>
                                 <div id="user-counter">
                                     <h3 id="counter">0</h3>
@@ -184,11 +178,11 @@
                                 </div>
                             </div>
                         </div>
-                        <h3 id="thanks">THANK YOU FOR TRAVELLING WITH US</h3>
                     </div>
                 </div>
             </div>
         </div>
+        <h3 id="thanks">THANK YOU FOR TRAVELLING WITH US</h3>
         <script src="https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
