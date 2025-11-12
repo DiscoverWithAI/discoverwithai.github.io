@@ -9,6 +9,7 @@
     --black: #161616;
     --black-a: #111111;
     --white: #fffaee;
+    --disabled: #5e5d5d;
 }
 
 * {
@@ -419,6 +420,7 @@ header h1 {
     background-color: var(--black-a);
     border: 3px solid var(--white);
     border-radius: 5px;
+    color: var(--white)
 }
 
 #user-form button {
@@ -444,6 +446,16 @@ header h1 {
     position: relative;
     cursor: pointer;
     transition-duration: .2s;
+}
+
+#user-form button[disabled] {
+    background-color: var(--disabled);
+}
+
+#user-form button[disabled]:hover {
+    background-color: var(--disabled);
+    cursor: default;
+    animation: none;
 }
 
 .svgIcon {
