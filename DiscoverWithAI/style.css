@@ -16,6 +16,7 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
     line-height: 1.2;
+    word-spacing: -.2rem;
 }
 
 ::-webkit-scrollbar {
@@ -344,7 +345,8 @@ header h1 span {
 
 #gallery #gallery-container .photo-desc>p {
     width: 50%;
-    font-size: 1.5cqb;
+    font-size: 1.6cqb;
+    line-height: 1.4;
     height: fit-content;
     transform: skewX(-7.5deg);
 }
