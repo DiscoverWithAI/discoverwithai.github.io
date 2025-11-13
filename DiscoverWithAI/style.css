@@ -1,15 +1,9 @@
-.fjalla-one-regular {
-    font-family: "Fjalla One", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-}
-
-
 :root {
     --black: #161616;
     --black-a: #111111;
     --white: #fffaee;
     --disabled: #5e5d5d;
+    --accent: #FBB668;
 }
 
 * {
@@ -17,7 +11,8 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: "Fjalla One";
+    font-family: "Martian Mono", monospace;
+    font-weight: 400;
     -ms-overflow-style: none;
     scrollbar-width: none;
     line-height: 1.2;
@@ -49,14 +44,22 @@ header {
 
 header h1 {
     color: var(--black);
-    font-size: 8rem;
+    font-size: 7.5cqw;
+    letter-spacing: 0.5rem;
+    font-weight: 900;
     text-align: center;
-    letter-spacing: 40%;
+    text-indent: -1%;
+    direction: rtl;
     position: absolute;
     top: -5%;
     left: 50%;
     transform: translate3d(-50%, -50%, -10px) scale(2, 4);
 
+}
+
+header h1 span {
+    font-family: "Poller One", serif;
+    display: inline;
 }
 
 .parallax {
@@ -85,7 +88,7 @@ header h1 {
     display: flex;
     flex-direction: column;
     height: 100%;
-    gap: 3rem;
+    gap: 4rem;
 }
 
 #l-1 {
@@ -126,7 +129,7 @@ header h1 {
     justify-content: center;
     gap: 5rem;
     z-index: 1;
-    padding: .5rem;
+    padding: .7rem;
     border-radius: 50px;
     background-color: rgba(0, 0, 0, 0.15);
 }
@@ -160,7 +163,7 @@ header h1 {
     font-size: 1.4rem;
     top: 50%;
     border-radius: 5px;
-    right: 2rem;
+    right: 2.5rem;
     transform: translate(0%, -50%);
     background-color: var(--white);
     color: var(--black);
@@ -195,9 +198,9 @@ header h1 {
 #pages .page h2 {
     display: block;
     font-size: 5rem;
-    letter-spacing: 10%;
+    letter-spacing: .5rem;
+    font-weight: 700;
     line-height: 1;
-    text-indent: 1rem;
 }
 
 #idea #processes-container {
@@ -211,6 +214,7 @@ header h1 {
 #idea #processes-container h3 {
     text-align: center;
     font-size: 2.5rem;
+    font-weight: 600;
 }
 
 #idea #processes-container ul {
@@ -245,7 +249,7 @@ header h1 {
 }
 
 #idea .process-block p {
-    font-size: 2cqb;
+    font-size: 1.5cqb;
 }
 
 
@@ -340,8 +344,7 @@ header h1 {
 
 #gallery #gallery-container .photo-desc>p {
     width: 50%;
-    letter-spacing: 5%;
-    font-size: 2cqb;
+    font-size: 1.5cqb;
     height: fit-content;
     transform: skewX(-7.5deg);
 }
@@ -428,7 +431,7 @@ header h1 {
     display: block;
     margin: 0 auto;
     text-align: center;
-    font-size: 3cqb;
+    font-size: 2.5cqb;
     padding: 1rem;
     margin-top: auto;
 }
@@ -468,7 +471,7 @@ header h1 {
 }
 
 #user-form button:hover {
-    background-color: rgb(222, 146, 6);
+    background-color: var(--accent);
     transition-duration: .5s;
 }
 
@@ -487,7 +490,8 @@ header h1 {
 }
 
 #user-counter h3 {
-    font-size: 5rem;
+    font-size: 5.5rem;
+    font-weight: 700;
     margin-bottom: 1rem;
 }
 
@@ -499,6 +503,6 @@ header h1 {
     z-index: 5;
     left: 50%;
     font-size: 3rem;
-    letter-spacing: 5%;
+    font-weight: 800;
     transform: translate(-50%, 50%);
 }
