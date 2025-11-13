@@ -57,6 +57,7 @@ jobs:
         run: |
           cp -a ./website/css ./out/
           cp -a ./DiscoverWithAI/style.css ./out/DiscoverWithAI
+          cp -a ./DiscoverWithAI/mini.css ./out/DiscoverWithAI
       - name: Copy images
         run: |
           cp -a ./website/img ./out/
