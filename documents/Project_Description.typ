@@ -272,6 +272,19 @@
   
   Finally, the user can check all the reservations and the details of the entire itinerary on a dedicated page of the application, which will also give the possibility to automatically organize eventually provided documents.
 
+  == Minimum Viable Product for solution validation
+
+  In order to validate the proposed solution, the Discover With AI team decided to create a #link("https://discoverwithai.github.io/DiscoverWIthAI")[landing page]#footnote(link("https://discoverwithai.github.io/DiscoverWIthAI")).
+
+  In order to adequately present the product to a wide number of people, the website is divided into three sections:
+  - *Idea section*: a section with a brief comparison between the normal procedure end-users usually adopt to create an itinerary and the simpler method made available by our service;
+  - *Gallery section*: a section that briefly presents, thanks to the presence of a carousel made by three images, the expected developed product complete with all functionalities. In other words, a sort of *sketch* of the future platform;
+  - *Form section*: a section in which users can let us known their interest in the project by simply pressing a button. Additionally, people can also choose to send their email in order to be kept updated about the platform's development: this allows the Discover With AI team to separate users who might be interested in the product and people who are really interested in the platform.
+
+  The last section also present a publicly visible counter of people who manifested interest in the platform.
+
   == Validation
+
+  The validation process for the solution is currently in progress.
 
 ]
