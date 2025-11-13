@@ -272,7 +272,19 @@
   
   Finally, the user can check all the reservations and the details of the entire itinerary on a dedicated page of the application, which will also give the possibility to automatically organize eventually provided documents.
 
+  #pagebreak()
+
   == Minimum Viable Product for solution validation
+
+  #figure(
+    grid(
+      column-gutter: 1em,
+      columns: (50%,50%),
+      [#image("assets/idea.png")],[#image("assets/form.png")],
+      grid.cell(colspan: 2)[#v(1em) #image("assets/form.png", width: 50%)],
+    ),
+    caption: "Screenshots of the landing page"
+  )
 
   In order to validate the proposed solution, the Discover With AI team decided to create a #link("https://discoverwithai.github.io/DiscoverWIthAI")[landing page]#footnote(link("https://discoverwithai.github.io/DiscoverWIthAI")).
 

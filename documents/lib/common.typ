@@ -56,6 +56,7 @@
       #place(dx: -71pt, dy: -2pt)[#rect(height: 50%, width: 135%, stroke: none, fill: orange)]
     ]
   )
+  
   pagebreak()
 
   show outline.entry.where(level: 1): it => {
@@ -63,7 +64,15 @@
     text(size: 1.2em)[*#it*]
   }
   outline(depth: 4, title: text(size: 2em)[#v(1em) Index #v(1em)], indent: 1em)
-  
+
+  show outline.entry.where(level: 1): it => {
+    text(weight: "thin")[#it]
+  }
+  outline(
+    title: text(size: 1.5em)[#v(0.5em) Images #v(0.5em)],
+    target: figure.where(kind: image)
+  )
+
 }
 
 #let doc(title, body) = {
