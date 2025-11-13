@@ -286,7 +286,7 @@
     caption: "Screenshots of the landing page"
   )
 
-  In order to validate the proposed solution, the Discover With AI team decided to create a #link("https://discoverwithai.github.io/DiscoverWIthAI")[landing page]#footnote(link("https://discoverwithai.github.io/DiscoverWIthAI")).
+  In order to validate the proposed solution, the Discover With AI team decided to create a #link("https://discoverwithai.github.io/DiscoverWithAI/")[landing page]#footnote(link("https://discoverwithai.github.io/DiscoverWithAI/")).
 
   In order to adequately present the product to a wide number of people, the website is divided into three sections:
   - *Idea section*: a section with a brief comparison between the normal procedure end-users usually adopt to create an itinerary and the simpler method made available by our service;
