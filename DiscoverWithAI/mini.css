@@ -61,6 +61,10 @@ header h1 span:first-child {
     font-size: 3.5rem;
 }
 
+#gallery #gallery-container {
+    width: 100%;
+}
+
 #gallery #gallery-container .photo-desc {
     flex-direction: column;
     gap: unset;
