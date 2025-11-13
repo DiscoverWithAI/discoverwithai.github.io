@@ -66,7 +66,7 @@
   outline(depth: 4, title: text(size: 2em)[#v(1em) Index #v(1em)], indent: 1em)
 
   show outline.entry.where(level: 1): it => {
-    text(weight: "thin")[#it]
+    text(size: 0.8em, weight: "thin")[#it]
   }
   outline(
     title: text(size: 1.5em)[#v(0.5em) Images #v(0.5em)],
