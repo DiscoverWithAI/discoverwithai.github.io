@@ -60,9 +60,9 @@ jobs:
       - name: Copy images
         run: |
           cp -a ./website/img ./out/
-          cp -a ./DiscoverWithAI/assets ./out/DiscoverWithAI/assets
+          cp -a ./DiscoverWithAI/assets ./out/DiscoverWithAI/
       - name: Copy JavaScript files
-        run: cp -a ./DiscoverWithAI/js ./out/DiscoverWithAI/js
+        run: cp -a ./DiscoverWithAI/js ./out/DiscoverWithAI/
       - name: Upload Website Artifact
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
