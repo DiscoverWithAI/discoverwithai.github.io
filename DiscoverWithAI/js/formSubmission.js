@@ -19,20 +19,21 @@ document.addEventListener("DOMContentLoaded", () => {
         event.preventDefault()
 
         const email = document.getElementById("input-email").value
-        console.log(email)
-        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-        if(!checkSubmitCookie() && emailPattern.test(email)) {
+        if(!checkSubmitCookie()) {
             const form = document.getElementById("user-form")
             const formData = new FormData(form);
-            const email = document.getElementById("input-email").value
-            formData.append("access_key", "5c96cf41-47a2-42c2-8c87-ac3505e28deb");
-            const submitResponse = await fetch("https://api.web3forms.com/submit", {
-                method: "POST",
-                body: formData
-            })
+            let submitResponse
 
-            if (submitResponse.ok) {
+            if(email !== "") {
+                formData.append("access_key", "5c96cf41-47a2-42c2-8c87-ac3505e28deb");
+                submitResponse = await fetch("https://api.web3forms.com/submit", {
+                    method: "POST",
+                    body: formData
+                })
+            }
+
+            if (email === "" || submitResponse.ok) {
                 document.cookie = "submit=true"
                 const response = await fetch("https://abacus.jasoncameron.dev/hit/dwai-test-4/submission")
                 const jsonFile = await response.json()
