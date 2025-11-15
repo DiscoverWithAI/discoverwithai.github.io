@@ -1,11 +1,13 @@
 document.addEventListener("DOMContentLoaded", (_) => {
     let page = -1;
+    const scrollable = document.getElementById("gallery-container");
     let navigators = Array.from(document.getElementsByClassName("indicator"));
     navigators.forEach(nav => {
         nav.onclick = (i) => {
             ResetNavigators();
             nav.classList.add("selected");
-            page = navigators.indexOf(nav);
+            clearInterval(interval);
+            interval = setInterval(scrollCarousel.bind(null, scrollable), 5000);
         };
     })
 
@@ -17,6 +19,11 @@ document.addEventListener("DOMContentLoaded", (_) => {
         })
     }
 
+    function scrollCarousel(scrollable) {
+        page = (page + 1) % (navigators.length);
+        scrollable.scroll(scrollable.clientWidth * page, 0)
+    }
+
     const options = {
         root: null,
         rootMargin: '0px',
@@ -25,16 +32,11 @@ document.addEventListener("DOMContentLoaded", (_) => {
 
     let interval;
     const gallery = document.getElementById("gallery");
-    const scrollable = document.getElementById("gallery-container");
     const galleryobserver = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 clearInterval(interval);
-                interval = setInterval((_) => {
-                    page = (page + 1) % (navigators.length);
-                    console.log(scrollable.clientWidth)
-                    scrollable.scroll(scrollable.clientWidth * page, 0)
-                }, 5000);
+                interval = setInterval(scrollCarousel.bind(null, scrollable), 5000);
             }
         });
     }, options);
@@ -47,6 +49,7 @@ document.addEventListener("DOMContentLoaded", (_) => {
             if (entry.isIntersecting) {
                 ResetNavigators();
                 navigators[0].classList.add("selected");
+                page = 0
             }
             else {
                 ResetNavigators();
@@ -61,6 +64,7 @@ document.addEventListener("DOMContentLoaded", (_) => {
             if (entry.isIntersecting) {
                 ResetNavigators();
                 navigators[1].classList.add("selected");
+                page = 1
             }
         });
     }, options);
@@ -72,6 +76,7 @@ document.addEventListener("DOMContentLoaded", (_) => {
             if (entry.isIntersecting) {
                 ResetNavigators();
                 navigators[2].classList.add("selected");
+                page = 2
             }
         });
     }, options);
