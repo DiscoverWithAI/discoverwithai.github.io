@@ -190,7 +190,7 @@ header h1 span {
     background-Image: linear-gradient(45deg, transparent 14%, var(--black-a) 15%, var(--black-a) 20%, transparent 21%, transparent 79%, var(--black-a) 80%, var(--black-a) 85%, transparent 86%), linear-gradient(135deg, transparent 14%, var(--black-a) 15%, var(--black-a) 20%, transparent 21%, transparent 79%, var(--black-a) 80%, var(--black-a) 85%, transparent 86%), radial-gradient(transparent 14%, var(--black-a) 15%, var(--black-a) 25%, transparent 26%);
     background-size: 5em 5em;
     background-attachment: fixed;
-    height: 100svh;
+    height: 100dvh;
     scroll-snap-align: start;
     scroll-snap-stop: always;
     padding: 3% 5%;
