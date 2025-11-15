@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     btn.onclick = () => {
         gsap.to(split.chars, {
             duration: .3,
-            y: -1100,         // animate from 100px below
+            y: -100,         // animate from 100px below
             autoAlpha: 1,   // fade in from opacity: 0 and visibility: hidden
             stagger: 0.03,  // 0.05 seconds between each
             repeat: 1,

@@ -58,5 +58,20 @@ document.addEventListener("DOMContentLoaded", (_) => {
     }, options);
     formobserver.observe(form);
 
+    const newway = document.getElementById("new-process");
+    const swipe = document.getElementById("swipe-indicator");
+    const newwayobserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                swipe.style.display = "none";
+                ResetNavigators();
+                navigators[2].classList.add("selected");
+            } else {
+                swipe.style.removeProperty("display");
+            }
+        });
+    }, options);
+    newwayobserver.observe(newway);
+
 
 });
