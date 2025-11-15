@@ -76,15 +76,4 @@ document.addEventListener("DOMContentLoaded", (_) => {
         });
     }, options);
     cobserver.observe(c);
-
-    const d = document.getElementById("d");
-    const dobserver = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                ResetNavigators();
-                navigators[3].classList.add("selected");
-            }
-        });
-    }, options);
-    dobserver.observe(d);
 })

@@ -234,7 +234,7 @@ header h1 span {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 8%;
 }
 
 #idea .process-block {
@@ -393,7 +393,7 @@ header h1 span {
 
 
 #form #user-content>p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 #form #form-container {
@@ -402,7 +402,7 @@ header h1 span {
     height: 100%;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 1.3rem;
+    font-size: 2cqb;
 }
 
 #user-form {
@@ -493,7 +493,7 @@ header h1 span {
 }
 
 #user-counter h3 {
-    font-size: 5.5rem;
+    font-size: 8cqb;
     font-weight: 700;
     margin-bottom: 1rem;
 }
