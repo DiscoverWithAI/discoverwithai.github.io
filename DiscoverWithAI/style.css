@@ -211,6 +211,8 @@ header h1 span {
     gap: 10%;
     flex: 1;
     height: 0;
+
+    scroll-timeline: --go-back x;
 }
 
 #idea #processes-container h3 {
@@ -235,6 +237,44 @@ header h1 span {
     display: flex;
     flex-direction: column;
     gap: 8%;
+}
+
+#old-process {
+    animation: process-out .5s linear;
+    animation-timeline: --go-back;
+}
+
+#new-process {
+    animation: process-in .5s linear;
+    animation-timeline: --go-back;
+}
+
+@keyframes process-out {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+        filter: blur(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(0);
+        filter: blur(10px);
+    }
+}
+
+@keyframes process-in {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+        filter: blur(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        filter: blur(0);
+    }
 }
 
 #idea .process-block {
