@@ -64,8 +64,6 @@ document.addEventListener("DOMContentLoaded", (_) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 swipe.style.display = "none";
-                ResetNavigators();
-                navigators[2].classList.add("selected");
             } else {
                 swipe.style.removeProperty("display");
             }
