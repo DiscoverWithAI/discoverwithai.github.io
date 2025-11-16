@@ -297,6 +297,6 @@
 
   == Validation
 
-  The validation process for the solution is currently in progress.
+  The validation process for the solution is currently in progress: the Discover With AI team aims to collect a minimum of 50 positive answers (50 visitors that pressed the landing page button), with at least 76% of them also deciding to provide their email.
 
 ]
