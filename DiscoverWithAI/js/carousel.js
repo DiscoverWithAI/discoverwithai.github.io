@@ -1,16 +1,19 @@
 document.addEventListener("DOMContentLoaded", (_) => {
     let page = -1;
+    let interval;
     const scrollable = document.getElementById("gallery-container");
     let navigators = Array.from(document.getElementsByClassName("indicator"));
     navigators.forEach(nav => {
         nav.onclick = (i) => {
             ResetNavigators();
             nav.classList.add("selected");
-            clearInterval(interval);
-            interval = setInterval(scrollCarousel.bind(null, scrollable), 5000);
         };
     })
 
+    function ResetInterval() {
+        clearInterval(interval);
+        interval = setInterval(scrollCarousel.bind(null, scrollable), 5000);
+    }
 
 
     function ResetNavigators() {
@@ -30,13 +33,11 @@ document.addEventListener("DOMContentLoaded", (_) => {
         threshold: 0.5
     };
 
-    let interval;
     const gallery = document.getElementById("gallery");
     const galleryobserver = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                clearInterval(interval);
-                interval = setInterval(scrollCarousel.bind(null, scrollable), 5000);
+                ResetInterval();
             }
         });
     }, options);
@@ -48,6 +49,7 @@ document.addEventListener("DOMContentLoaded", (_) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 ResetNavigators();
+                ResetInterval();
                 navigators[0].classList.add("selected");
                 page = 0
             }
@@ -63,6 +65,7 @@ document.addEventListener("DOMContentLoaded", (_) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 ResetNavigators();
+                ResetInterval();
                 navigators[1].classList.add("selected");
                 page = 1
             }
@@ -75,6 +78,7 @@ document.addEventListener("DOMContentLoaded", (_) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 ResetNavigators();
+                ResetInterval();
                 navigators[2].classList.add("selected");
                 page = 2
             }
