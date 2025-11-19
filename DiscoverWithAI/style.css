@@ -147,14 +147,13 @@ header h1 span {
     height: 1.7rem;
     border-radius: 50%;
     background-color: var(--white);
-    border: 2px solid var(--black);
     transition: all 400ms;
 }
 
 #points a:hover::before,
 #points a.selected::before {
     transform: scale(1.15);
-    background-color: var(--white);
+    background-color: var(--accent);
 }
 
 #points a::after {
@@ -167,7 +166,7 @@ header h1 span {
     border-radius: 5px;
     right: 2.5rem;
     transform: translate(0%, -50%);
-    background-color: var(--white);
+    background-color: var(--accent);
     color: var(--black);
     padding: 0.3rem 0.8rem;
     pointer-events: none;
@@ -423,6 +422,7 @@ header h1 span {
 #gallery-indicator a.selected {
     width: 2rem;
     border-radius: 10px;
+    background-color: var(--accent);
 }
 
 #form #user-content {
