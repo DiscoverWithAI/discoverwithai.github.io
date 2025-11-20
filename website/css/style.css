@@ -97,6 +97,11 @@ ul {
 li {
     list-style-type: none;
     width: 30%;
+    background-image: url(../img/mdi--file-pdf-box.svg);
+    background-position-x: left;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    padding: 0.2em;
 }
 
 li a {

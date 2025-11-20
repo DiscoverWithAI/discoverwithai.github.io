@@ -10,6 +10,11 @@ from typing import Any
 
 fileBasePath:str = "documents"
 compileBlackList: list[str] = ["lib", "assets","interviews","notes","DiscoverWithAI"]
+customName: dict = {
+    "Project_Description.pdf": "Business idea report.pdf",
+    "Idea_interview.pdf": "Business idea validation interviews.pdf"
+}
+customNameList: list[str] = []
 
 def searchTypstFiles() -> list:
     fileList: list = []
@@ -19,8 +24,14 @@ def searchTypstFiles() -> list:
     return fileList
 
 def typstCompile(filePath: str) -> bool:
-    if not any(word in filePath for word in compileBlackList): 
+    if not any(word in filePath for word in compileBlackList):
         outputFile: str=filePath.replace(fileBasePath,"compiled").replace(".typ",".pdf")
+
+        for customFile in customNameList:
+            if customFile in outputFile:
+                outputFile.replace(customFile,customName[customFile])
+                logging.debug(f"Found custom name for {filePath}: {customName}")
+
         outputFolder: str = os.path.dirname(outputFile)
 
         if not Path(outputFolder).is_dir():
@@ -35,7 +46,7 @@ def typstCompile(filePath: str) -> bool:
             capture_output=True,
             check=True,
             text=True)
-            logging.debug(result.stdout)
+            logging.debug(f"Compiled file {filePath} with result: {result.stdout}")
         except subprocess.CalledProcessError as err:
             logging.error(f'Compiling process for file {filePath} failed. Error: {err.stderr}')
             return False
@@ -54,6 +65,8 @@ def multiThreadCompiling(fileList: list) -> bool:
 def main():
     logging.basicConfig(level=logging.DEBUG)
     logging.debug(f'Starting compiling...')
+    customNameList = customName.keys()
+    logging.debug(f'Loaded list of file having a custom name: {customNameList}')
     result: bool = multiThreadCompiling(searchTypstFiles())
     if not result:
         sys.exit(1)

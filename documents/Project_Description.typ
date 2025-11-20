@@ -254,6 +254,10 @@
   == Solution analysis
 
   The application will consist of a chatbot powered by Artificial Intelligence (AI) technology, which will have the purpose of guiding the user throughout the process of setting up his or her travel by comparing prices, providing suggestions, and proposing itineraries, automatically providing the user with the cheapest available options in accordance with the travel plan, therefore saving time and money.
+
+  Specifically, the Discover With AI team wanted to initially use the Google Gemini API to provide the minimum required functionality. The solution would be provisional, with the idea of creating more customized web scraping software, along with training a custom machine learning model, in the future.
+
+  There are several advantages to the use of Google Gemini, the main one being the capabilities of the AI to interface with the Google search engine, capable of providing updated results regarding events and possible accommodations.
   
   /*The guideline is composed by steps, for instance flights purchase followed by accommodations booking, thus the user can easily choose the best options for his or her travel assisted by an Artificial Intelligence (AI) tool.*/
 
