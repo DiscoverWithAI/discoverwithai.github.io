@@ -28,6 +28,7 @@ def typstCompile(filePath: str) -> bool:
         outputFile: str=filePath.replace(fileBasePath,"compiled").replace(".typ",".pdf")
 
         for standardFileName in customNameList:
+            logging.debug(f"Searching {standardFileName} in {outputFile}")
             if standardFileName in outputFile:
                 outputFile = outputFile.replace(standardFileName,customName[standardFileName])
                 logging.debug(f"Found custom name for {filePath}: {customName[standardFileName]}")
