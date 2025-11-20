@@ -29,7 +29,7 @@ def typstCompile(filePath: str) -> bool:
 
         for standardFileName in customNameList:
             if standardFileName in outputFile:
-                outputFile.replace(standardFileName,customName[standardFileName])
+                outputFile = outputFile.replace(standardFileName,customName[standardFileName])
                 logging.debug(f"Found custom name for {filePath}: {customName[standardFileName]}")
 
         outputFolder: str = os.path.dirname(outputFile)
