@@ -11,8 +11,8 @@ from typing import Any
 fileBasePath:str = "documents"
 compileBlackList: list[str] = ["lib", "assets","interviews","notes","DiscoverWithAI"]
 customName: dict = {
-    "Project_Description.pdf": "Business idea report.pdf",
-    "Idea_interview.pdf": "Business idea validation interviews.pdf"
+    "Project_Description.pdf": "Report.pdf",
+    "Idea_interview.pdf": "Interviews.pdf"
 }
 
 def searchTypstFiles() -> list:
@@ -26,10 +26,8 @@ def typstCompile(filePath: str) -> bool:
     if not any(word in filePath for word in compileBlackList):
         customNameList: list[str] = list(customName.keys())
         outputFile: str=filePath.replace(fileBasePath,"compiled").replace(".typ",".pdf")
-        logging.debug(f"Current special files: {customNameList}. Current output file: {outputFile}")
 
         for standardFileName in customNameList:
-            logging.debug(f"Searching {standardFileName} in {outputFile}")
             if standardFileName in outputFile:
                 outputFile = outputFile.replace(standardFileName,customName[standardFileName])
                 logging.debug(f"Found custom name for {filePath}: {customName[standardFileName]}")
