@@ -27,10 +27,10 @@ def typstCompile(filePath: str) -> bool:
     if not any(word in filePath for word in compileBlackList):
         outputFile: str=filePath.replace(fileBasePath,"compiled").replace(".typ",".pdf")
 
-        for customFile in customNameList:
-            if customFile in outputFile:
-                outputFile.replace(customFile,customName[customFile])
-                logging.debug(f"Found custom name for {filePath}: {customName}")
+        for standardFileName in customNameList:
+            if standardFileName in outputFile:
+                outputFile.replace(standardFileName,customName[standardFileName])
+                logging.debug(f"Found custom name for {filePath}: {customName[standardFileName]}")
 
         outputFolder: str = os.path.dirname(outputFile)
 
@@ -65,7 +65,7 @@ def multiThreadCompiling(fileList: list) -> bool:
 def main():
     logging.basicConfig(level=logging.DEBUG)
     logging.debug(f'Starting compiling...')
-    customNameList = customName.keys()
+    customNameList = list(customName.keys())
     logging.debug(f'Loaded list of file having a custom name: {customNameList}')
     result: bool = multiThreadCompiling(searchTypstFiles())
     if not result:
