@@ -6,14 +6,14 @@
         columns: (15%, auto),
         align: left,
         column-gutter: 0.3em,
-        [#link(res)[#image("../assets/mdi--youtube.svg", width: 100%)]], [#link(res)[YouTube]]
+        [#link(res)[#image("../assets/img/mdi--youtube.svg", width: 100%)]], [#link(res)[YouTube]]
       )
     } else if (type=="ig") {
       grid(
         columns: (15%, auto),
         align: left,
         column-gutter: 0.3em,
-        [#link(res)[#image("../assets/mdi--instagram.svg", width: 100%)]], [#link(res)[Instagram]]
+        [#link(res)[#image("../assets/img/mdi--instagram.svg", width: 100%)]], [#link(res)[Instagram]]
       )
     } else {
       panic("Not a supported social")
@@ -37,7 +37,7 @@
   [#rect(fill: orange, width: 100%, height: 49%)],
   grid.cell(inset: (x: 2em, y: 1em))[
     #v(2em)
-    #align(center)[#image("../assets/mage--preview-circle-fill.svg", width: 20%)]
+    #align(center)[#image("../assets/img/mage--preview-circle-fill.svg", width: 20%)]
     #v(-1em)
     #text(size: 3em)[*DISCOVER WITH AI*]
   ],
@@ -97,7 +97,7 @@
             right + horizon
           }
         },
-        [#image("../assets/mage--preview-circle-fill.svg")], [#h(0.2em)*Discover With AI*], [*#title*],
+        [#image("../assets/img/mage--preview-circle-fill.svg")], [#h(0.2em)*Discover With AI*], [*#title*],
       )
 
       #line(length: 100%)

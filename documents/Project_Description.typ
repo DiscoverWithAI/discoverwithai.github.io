@@ -284,8 +284,8 @@
     grid(
       column-gutter: 1em,
       columns: (50%,50%),
-      [#image("assets/idea.png")],[#image("assets/sketch.png")],
-      grid.cell(colspan: 2)[#v(1em) #image("assets/form.png", width: 50%)],
+      [#image("assets/img/idea.png")],[#image("assets/img/sketch.png")],
+      grid.cell(colspan: 2)[#v(1em) #image("assets/img/form.png", width: 50%)],
     ),
     caption: "Screenshots of the landing page"
   )
